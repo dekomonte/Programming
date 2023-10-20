@@ -1,0 +1,42 @@
+Programação Orientada a Objetos 
+-Paradigma de programação
+-A partir de uma classe, podemos criar objetos que servirão de base para montarmos todo o sistema
+-Abstração e Encapsulamento - Pilares da POO
+-Diferente de Programação Procedural
+-Refletir objetos da vida real na programaçãp
+
+---------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
+
+->O que é uma Classe?/O que é um Objeto?
+-Estrutura
+-Forma para criar outras estruturas
+-Instância (criar um objeto a partir do molde) = Objeto
+-Objeto (ou instância) é o nome dado para cada item gerado através de uma classe
+-Classe é o molde, Objeto é o elemento criado a partir do molde
+
+->Tipos, Propriedades e Métodos
+-Atributos = "variáveis" que fazem parte de um objeto
+-Visibilidade
+-Tipagem forte
+-Métodos: ações que as minhas classes podem tomar
+-$this
+
+-Atributos definidos como privados: apenas funções dentro da classe podem acessar e modificar esses atributos
+
+->Métodos de Acesso
+-Métodos pra acessar as propriedades
+
+->Métodos Get e Set
+-Setters definem os valores de atributos privados
+-Métodos que devolvem o valor de um atributo
+
+->Encapsulamento
+-Expor só o que é necessário
+
+->Métodos Mágicos
+__construct
+__destruct
+
+->Composição
+-Uma classe deve ser concisa
+-Composição: um objeto tem outro objeto como valor de um dos seus atributos
