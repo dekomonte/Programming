@@ -1,19 +1,19 @@
-A ideia do repositório é manter uma referência de programas em várias linguagens e outros tópicos teóricos relacionados.
+Repositório dedicado a estudos na Área de Programação.
 
 # Pastas
 
-## Banco_Dados
+### Banco_Dados
 Teoria básica sobre Banco de Dados.
 
-## POO
+### POO
 Teoria básica sobre Programação Orientada a Objetos.
 
 # Códigos
 
-## Python
+### Python
 "Hello World!" clássico apenas para teste.
 
-## PHP
+### PHP
 Partes de 1 a 5 contendo um pouco da sintaxe dos conceitos básicos de PHP.<br/>
 <br/>
 Parte 1 - Tipos Variáveis, Operadores, Estruturas de Repetição <br/>
@@ -23,5 +23,5 @@ Parte 4 - Lista, Array Associativo <br/>
 Parte 4 - Foreach <br/>
 Parte 5 - Declaração de Funções, Strings Complexas <br/>
 
-## Javascript
+### Javascript
 Código simples de escrita na tela.
