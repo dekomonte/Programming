@@ -3,10 +3,10 @@ Repositório dedicado a estudos na Área de Programação.
 # Pastas
 
 ### Banco_Dados
-Teoria básica sobre Banco de Dados.
+Teoria básica sobre _Banco de Dados_.
 
 ### POO
-Teoria básica sobre Programação Orientada a Objetos.
+Teoria básica sobre _Programação Orientada a Objetos_.
 
 # Códigos
 
