@@ -19,6 +19,7 @@ Modificadores de acesso para atributos e/ou métodos (PHP)
 protected = só as classes atual e filhas têm acesso
 public = todos podem acessar o membro, inclusive fora da classe onde foi definido
 private = apenas a classe atual tem acesso
+-Atributos definidos como privados: apenas funções dentro da classe podem acessar e modificar esses atributos
 
 Namespace
 -Forma de encapsular itens
