@@ -1,0 +1,39 @@
+Programação Orientada a Objetos - Parte 2
+
+-Pilares da Programação Orientada a Objetos
+	-Abstração
+	-Encapsulamento
+	-Herança
+	-Polimorfismo
+
+---------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
+Herança
+
+-Classes estendendo propriedades de outras classes
+-Uma classe herda tudo que uma classe base tem e adicona comportamentos específicos
+-"parent" -> Chamar o construtor da classe base
+-"protected"
+
+---------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
+Modificadores de acesso para atributos e/ou métodos (PHP)
+protected = só as classes atual e filhas têm acesso
+public = todos podem acessar o membro, inclusive fora da classe onde foi definido
+private = apenas a classe atual tem acesso
+
+Namespace
+-Forma de encapsular itens
+-Se em uma classe com namespace definido precisarmos acessar classes de outro namespace, precisamos adicionar o use ou informar o seu nome completo (namespace + nome da classe)
+
+Classes Filhas e Método Abstrato
+-Classes Abstratas: classes que ainda não estão prontas para serem instanciadas e precisam ser estendidas 
+-As classes abstratas são as que não permitem realizar qualquer tipo de instância
+-Métodos Abstratos: são uma forma de "obrigar" que classes filhas implementem determinado método
+-Apenas classes abstratas podem ter métodos abstratos
+
+Classes de Serviço
+-Executam alguma ação e não representam um modelo do negócio
+---------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
+Polimorfismo
+
+-Estipula que uma referência pode ter vários tipos e se comportar de formas diferentes, mas existindo semelhanças o suficiente de modo a atender a alguns requisitos
+-Capacidade de um objeto poder ser referenciado de várias formas 
