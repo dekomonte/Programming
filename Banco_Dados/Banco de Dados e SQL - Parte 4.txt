@@ -6,7 +6,7 @@ O Curso Completo de Banco de Dados e SQL, sem mistérios! - Parte 4      \\Curso
 
 SELECT COUNT(*) FROM CLIENTE; \\Conta o número de registros de uma tabela
 
-SELECT SEXO, COUNT(*) FORM CLIENTE; 
+SELECT SEXO, COUNT(*) FROM CLIENTE; 
 
-SELECT SEXO, COUNT(*) FORM CLIENTE
+SELECT SEXO, COUNT(*) FROM CLIENTE
 GROUP BY SEXO; 
