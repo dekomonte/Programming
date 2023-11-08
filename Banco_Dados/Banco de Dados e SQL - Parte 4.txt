@@ -1,2 +1,12 @@
 O Curso Completo de Banco de Dados e SQL, sem mistérios! - Parte 4      \\Curso da Udemy
 ---------------#---------------#---------------#---------------#---------------#---------------#
+-> Performance com Operadores Lógicos
+
+-Funções de Agregação somam
+
+SELECT COUNT(*) FROM CLIENTE; \\Conta o número de registros de uma tabela
+
+SELECT SEXO, COUNT(*) FORM CLIENTE; 
+
+SELECT SEXO, COUNT(*) FORM CLIENTE
+GROUP BY SEXO; 
