@@ -1,0 +1,4 @@
+# Funções pra importar informações de outros arquivos
+include -> Continua o código mesmo dando erro
+require -> Aparece o erro mas não continua o código
+require_once -> Importa somente uma vez o arquivo
