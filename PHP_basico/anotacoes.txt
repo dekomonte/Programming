@@ -2,3 +2,11 @@
 include -> Continua o código mesmo dando erro
 require -> Aparece o erro mas não continua o código
 require_once -> Importa somente uma vez o arquivo
+
+#Variáveis 
+//string
+//numbers - integers, float (double)
+//booleans
+//arrays
+//object
+//null
