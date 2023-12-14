@@ -18,8 +18,8 @@ CREATE TABLE IF NOT EXISTS `relatorio_certificados_profissional` (
 
 -> Inserir dados no Banco
 INSERT INTO `relatorio_certificados_profissional` (`ID_RELATORIO`, `N_DO_ARQUIVO`, `CERTIFICADO`, `NOME`, `CPF`, `NOME_DO_ARQUIVO`, `E_MAIL`, `ENVIADO`) VALUES
-	(1, 1, 1, 'Nome1', '13380159715', 'arquivo1', 'email1', 0),
-	(2, 2, 2, 'Nome2', '01952572372', 'arquivo2', 'email2', 0);
+	(1, 1, 1, 'Nome1', '12180159715', 'arquivo1', 'email1', 0),
+	(2, 2, 2, 'Nome2', '98952572372', 'arquivo2', 'email2', 0);
 
 -> Requisições Diversas
 SELECT COUNT(*) FROM relatorio_apolice_global_certificados_rc_profissional WHERE ENVIADO=0;
