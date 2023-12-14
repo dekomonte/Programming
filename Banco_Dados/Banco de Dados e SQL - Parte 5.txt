@@ -31,6 +31,9 @@ WHERE NOME = 'Maria';
 DELETE FROM CLIENTE
 WHERE NOME = 'Ana';
 
+DELETE FROM CLIENTE
+WHERE NOME = 'Ana' AND EMAIL='exemplo@gmail.com';
+
 -Importante usar WHERE
 
 ---------------#---------------#---------------#---------------#---------------#---------------#
