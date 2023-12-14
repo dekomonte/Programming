@@ -4,7 +4,7 @@ Alguns scripts que o Zé me ensinou quando me passou a demanda de envio de e-mai
 CREATE DATABASE IF NOT EXISTS `envio_certificados`;
 USE `envio_certificados`;
 
-CREATE TABLE IF NOT EXISTS `relatorio_apolice_global_certificados_rc_profissional` (
+CREATE TABLE IF NOT EXISTS `relatorio_certificados_profissional` (
   `ID_RELATORIO` int NOT NULL AUTO_INCREMENT,
   `N_DO_ARQUIVO` int DEFAULT NULL,
   `CERTIFICADO` int DEFAULT NULL,
@@ -17,11 +17,9 @@ CREATE TABLE IF NOT EXISTS `relatorio_apolice_global_certificados_rc_profissiona
 ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -> Inserir dados no Banco
-INSERT INTO `relatorio_apolice_global_certificados_rc_profissional` (`ID_RELATORIO`, `N_DO_ARQUIVO`, `CERTIFICADO`, `NOME`, `CPF`, `NOME_DO_ARQUIVO`, `E_MAIL`, `ENVIADO`) VALUES
-	(1, 1, 1, 'EULO ANTONIO BALVEDI', '13325159915', 'Certificado - MUTUA Apl 02852.2023.0062.0378.0019972 1.pdf', 'andressa.sena@mutua.com.br', 0),
-	(2, 2, 2, 'ALVACIRIO ANTONIO DE SOUZA', '09525491072', 'Certificado - MUTUA Apl 02852.2023.0062.0378.0019972 2.pdf', 'andressa.sena@mutua.com.br', 0),
-	(3, 3, 3, 'RUI CARLOS BAIARDI', '75045559834', 'Certificado - MUTUA Apl 02852.2023.0062.0378.0019972 3.pdf', 'andressa.sena@mutua.com.br', 0),
-	(4, 4, 4, 'RUI MEDEIROS', '23132760900', 'Certificado - MUTUA Apl 02852.2023.0062.0378.0019972 4.pdf', 'andressa.sena@mutua.com.br', 0);
+INSERT INTO `relatorio_certificados_profissional` (`ID_RELATORIO`, `N_DO_ARQUIVO`, `CERTIFICADO`, `NOME`, `CPF`, `NOME_DO_ARQUIVO`, `E_MAIL`, `ENVIADO`) VALUES
+	(1, 1, 1, 'Nome1', '13380159715', 'arquivo1', 'email1', 0),
+	(2, 2, 2, 'Nome2', '01952572372', 'arquivo2', 'email2', 0);
 
 -> Requisições Diversas
 SELECT COUNT(*) FROM relatorio_apolice_global_certificados_rc_profissional WHERE ENVIADO=0;
