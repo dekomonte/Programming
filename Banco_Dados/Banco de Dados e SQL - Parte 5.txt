@@ -1,9 +1,15 @@
 O Curso Completo de Banco de Dados e SQL, sem mistérios! - Parte 5      \\Curso da Udemy
 ---------------#---------------#---------------#---------------#---------------#---------------#
+-> Como Filtrar Valores Nulos?
+-Nulo = 'caixa com nada dentro'
 
--> Revisão
+Exemplo:
+SELECT NOME, SEXO, ENDERECO
+FROM CLIENTES
+WHERE EMAIL IS NULL
 
-SELECT COUNT (*), departamento 
-FROM FUNCIONARIOS
-GROUP BY departamento
-ORDER BY 1;
+SELECT NOME, SEXO, ENDERECO
+FROM CLIENTES
+WHERE EMAIL IS NOT NULL
+---------------#---------------#---------------#---------------#---------------#---------------#
+-> A Cláusula UPDATE - Atualizando Dados
