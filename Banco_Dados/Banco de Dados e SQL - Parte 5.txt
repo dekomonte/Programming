@@ -1,0 +1,9 @@
+O Curso Completo de Banco de Dados e SQL, sem mistérios! - Parte 5      \\Curso da Udemy
+---------------#---------------#---------------#---------------#---------------#---------------#
+
+-> Revisão
+
+SELECT COUNT (*), departamento 
+FROM FUNCIONARIOS
+GROUP BY departamento
+ORDER BY 1;
