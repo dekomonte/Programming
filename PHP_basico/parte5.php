@@ -94,10 +94,4 @@ foreach($contasCorrentes as $pessoa=>$conta){
     QuebraLinha();
 }
 
-/*---------------Separar Arquivos---------------*/
-#Usar include <nome do arquivo> para usar elementos de outros arquivos
-#require <nome do arquivo> informa que tem um erro e não executa a partir daí
-#Tipos de problema
-#require_once <nome do arquivo> inclui caso o arquivo não tenha sido incluido antes
-
 ?>
