@@ -10,3 +10,46 @@ SELECT SEXO, COUNT(*) FROM CLIENTE;
 
 SELECT SEXO, COUNT(*) FROM CLIENTE
 GROUP BY SEXO; 
+
+---------------#---------------#---------------#---------------#---------------#---------------#
+-> Como Filtrar Valores Nulos?
+-Nulo = 'caixa com nada dentro'
+
+Exemplo:
+SELECT NOME, SEXO, ENDERECO
+FROM CLIENTES
+WHERE EMAIL IS NULL;
+
+SELECT NOME, SEXO, ENDERECO
+FROM CLIENTES
+WHERE EMAIL IS NOT NULL;
+
+---------------#---------------#---------------#---------------#---------------#---------------#
+-> A Cláusula UPDATE - Atualizando Dados
+
+UPDATE CLIENTE 
+SET EMAIL = 'exemplo@gmail.com'
+WHERE NOME = 'Joao';
+
+UPDATE CLIENTE 
+SET EMAIL = 'exemplo2@gmail.com'
+WHERE NOME = 'Maria';
+
+-Importante usar WHERE
+
+---------------#---------------#---------------#---------------#---------------#---------------#
+-> A Cláusula DELETE - Deletando Dados
+
+DELETE FROM CLIENTE
+WHERE NOME = 'Ana';
+
+DELETE FROM CLIENTE
+WHERE NOME = 'Ana' AND EMAIL='exemplo@gmail.com';
+
+-Importante usar WHERE
+
+---------------#---------------#---------------#---------------#---------------#---------------#
+-> Aleatório
+
+#Vai contar os elementos na tabela (acho que linhas)
+SELECT COUNT (*) FROM CLIENTE;

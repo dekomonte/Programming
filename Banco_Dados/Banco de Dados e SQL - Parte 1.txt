@@ -1,4 +1,4 @@
-O Curso Completo de Banco de Dados e SQL, sem mistérios! - Parte 1      \\Curso da Udemy
+/*O Curso Completo de Banco de Dados e SQL, sem mistérios! - Parte 1      \\Curso da Udemy
 ---------------#---------------#---------------#---------------#---------------#---------------#
 # Arquitetura de Software
 
@@ -6,17 +6,17 @@ O Curso Completo de Banco de Dados e SQL, sem mistérios! - Parte 1      \\Curso
 -Padrão MVC (Arquitetura de Softaware)
 	-Viewer 
 	-Controller - Processamento
-	-Model - Classes modelos(representadas por tabelas nos bancos de dados)
+	-Model - Classes modelos(representadas por tabelas nos bancos de dados)*/
 
 ---------------#---------------#---------------#---------------#---------------#---------------#
-# Modelagem
+/*# Modelagem
 
 -Requisitos
 -Importante saber a plataforma(sintaxe muda)
--Escopo = onde começa e onde termina um projeto 
+-Escopo = onde começa e onde termina um projeto*/ 
 
 ---------------#---------------#---------------#---------------#---------------#---------------#
-# Modelagem Básica - Entidade = Tabela
+/*# Modelagem Básica - Entidade = Tabela
 
 CLIENTE
 
@@ -25,20 +25,20 @@ CPF - numérico(11)
 EMAIL - caracter(30)
 TELEFONE - caracter(30)
 ENDERECO - caracter(100)
-SEXO - caracter(1)
+SEXO - caracter(1)*/
 
 ---------------#---------------#---------------#---------------#---------------#---------------#
-# Processos de Modelagem
+/*# Processos de Modelagem
 
 Fase 01 e Fase 02 - Administrador de Dados
 -Modelagem Conceitual - Rascunho
 -Modelagem Lógica - Qualquer programa de Modelagem 
 
 Fase 03 - DBA/AD
--Modelagem Física - Script no Banco de Dados
+-Modelagem Física - Script no Banco de Dados*/
 
 ---------------#---------------#---------------#---------------#---------------#---------------#
-# Modelagem Física 
+/*# Modelagem Física*/ 
 
 /*Criando um Banco de Dados*/
 CREATE DATABASE PROJETO;
@@ -63,7 +63,7 @@ SHOW TABLES;
 DESC CLIENTES;
 
 ---------------#---------------#---------------#---------------#---------------#---------------#
-# Tipagem de tabelas de Banco de Dados
+/*# Tipagem de tabelas de Banco de Dados
 
 -Analista de performance 
 -Um bancos de dados tipado é mais leve e mais rápido
@@ -71,4 +71,4 @@ DESC CLIENTES;
 	-VARCHAR varia
 	-Sempre utilizar o CHAR quando o número de caracteres da coluna nunca variar
 -ENUM 
-	-Existe apenas no MySQL
+	-Existe apenas no MySQL*/

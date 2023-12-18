@@ -1,43 +1,10 @@
 O Curso Completo de Banco de Dados e SQL, sem mistérios! - Parte 5      \\Curso da Udemy
----------------#---------------#---------------#---------------#---------------#---------------#
--> Como Filtrar Valores Nulos?
--Nulo = 'caixa com nada dentro'
 
-Exemplo:
-SELECT NOME, SEXO, ENDERECO
-FROM CLIENTES
-WHERE EMAIL IS NULL;
+Modelando Banco de Dados para Sistemas
+----------#----------#----------#----------#----------#----------#----------#----------#----------#
+-> Começando a Modelar
 
-SELECT NOME, SEXO, ENDERECO
-FROM CLIENTES
-WHERE EMAIL IS NOT NULL;
+-Banco de Dados = "Fundação da Casa"
+----------#----------#----------#----------#----------#----------#----------#----------#----------#
 
----------------#---------------#---------------#---------------#---------------#---------------#
--> A Cláusula UPDATE - Atualizando Dados
-
-UPDATE CLIENTE 
-SET EMAIL = 'exemplo@gmail.com'
-WHERE NOME = 'Joao';
-
-UPDATE CLIENTE 
-SET EMAIL = 'exemplo2@gmail.com'
-WHERE NOME = 'Maria';
-
--Importante usar WHERE
-
----------------#---------------#---------------#---------------#---------------#---------------#
--> A Cláusula DELETE - Deletando Dados
-
-DELETE FROM CLIENTE
-WHERE NOME = 'Ana';
-
-DELETE FROM CLIENTE
-WHERE NOME = 'Ana' AND EMAIL='exemplo@gmail.com';
-
--Importante usar WHERE
-
----------------#---------------#---------------#---------------#---------------#---------------#
--> Aleatório
-
-#Vai contar os elementos na tabela (acho que linhas)
-SELECT COUNT (*) FROM CLIENTE;
+----------#----------#----------#----------#----------#----------#----------#----------#----------#
