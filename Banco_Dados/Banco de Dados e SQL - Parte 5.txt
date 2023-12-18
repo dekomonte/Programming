@@ -5,6 +5,26 @@ Modelando Banco de Dados para Sistemas
 -> Começando a Modelar
 
 -Banco de Dados = "Fundação da Casa"
-----------#----------#----------#----------#----------#----------#----------#----------#----------#
+-Dados são imutáveis
+-Primeira Forma Normal, Segunda Forma Normal, Terceira Forma Normal, Quarta Forma Normal, Quinta Forma Normal
+-Até a terceira Forma Normal é suficiente para ter uma modelagem limpa
 
+----------#----------#----------#----------#----------#----------#----------#----------#----------#
+-> Modelagem - Primeira Forma Normal
+
+#Regras da Primeira Forma Normal:
+
+1 - Todo campo vetorizado se tornará outra tabela;
+EX:
+[AMARELO, AZUL, LARANJA, VERDE] -> CORES
+[KA, FIESTA, UNO, CIVIC] -> CARROS
+
+2 - Todo campo multivalorado se tornará outra tabela. Quando o campo for divisível;
+
+3 - Toda tabela necessita de pelo menos um campo que identifique todo o registro como sendo único. Isto é 
+o que chamamos de chave primária ou primary key;
+
+-Existem 2 tipos de chaves: NATURAL(pertence ao registro) e ARTIFICIAL(criamos - geralmente uma coluna id no 
+início numerando os registros)
+-Chaves artificiais são mais utilizadas 
 ----------#----------#----------#----------#----------#----------#----------#----------#----------#
