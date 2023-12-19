@@ -125,6 +125,19 @@ var_dump($cons);*/
 #OR ||
 #!
 
+//Incremento/Decremento
+#Pré/Pós incremento/decremento
+$number=10;
+echo ++$number;
+echo "\n";
+
+//Comparação
+# // < > =
+# != Verifica se o valor é diferente
+# !== Verifica ser o valor é diferente OU o tipo é diferente
+# == Verifica se o valor é igual
+# === Verifica se o valor é igual E o tipo é igual 
+
 /*---------------Estruturas de Repetição---------------*/
 #WHILE
 $cont=1;
