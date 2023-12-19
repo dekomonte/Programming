@@ -22,7 +22,7 @@ Repositório dedicado a estudos na Área de Programação.
 .<br/>
 .<br/>
 
-# Diretórios
+## Diretórios
 
 ### Banco_Dados
 Teoria básica sobre _Banco de Dados_.
