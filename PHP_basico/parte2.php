@@ -22,6 +22,9 @@ echo "A idade é $idade \n";
 echo "A idade é {$idade} \n";
 #Com '', ele nem considera o \n
 
+//Funções - Strings
+echo strlen($idade);
+
 
 //Concatenação
 #Concatenação - Forma 1:
