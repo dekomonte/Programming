@@ -6,5 +6,6 @@ Parte 2 - Revisão Tipos de Variáveis, Strings, Operadores Matemáticos, Estrut
 Parte 3 - Exemplos: Números Ímpares, Tabuada do 9, IMC <br/>
 Parte 4 - Lista, Array Associativo <br/>
 Parte 4 - Foreach <br/>
+Parte 4 - Array
 Parte 5 - Declaração de Funções e Strings Complexas <br/>
 Parte 6 -
