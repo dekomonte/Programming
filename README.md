@@ -30,5 +30,5 @@ Teoria básica sobre _Banco de Dados_.
 ### POO
 Teoria básica sobre _Programação Orientada a Objetos_.
 
-### Códigos
+### Codigos
 Scripts aleatórios. 
