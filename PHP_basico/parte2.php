@@ -15,8 +15,10 @@ $curso="Mecatrônica";
 //Concatenação
 #Concatenação - Forma 1:
 echo "Meu nome é $nome $sobrenome, tenho $idade anos, faço $curso.<br>";
+echo "\n";
 #Concatenação - Forma 2:
 echo 'Meu nome é '.$nome.' '.$sobrenome.' ,tenho '.$idade.' anos, faço '.$curso.'.'.'<br>';
+echo "\n";
 
 //Caracteres Especiais
 #\n
@@ -33,15 +35,34 @@ $contador = $contador + 1;
 $contador += 1;
 $contador++;
 echo "$contador";
+echo "\n";
 
 
 /*---------------Estruturas de Seleção---------------*/
 #IF-ELSEIF-ELSE
+$isAdmin = true;
+$numero1 = 70;
+$numero2 = 50;
+
+$resultado = $numero1 > $numero2  && $isAdmin;
+
+if($isAdmin){
+    echo "isAdmin";
+    echo "\n";
+}
+
+if($resultado){
+    echo "Verdadeiro!\n";
+}
+else{
+    echo "Falso!\n";
+}
 
 #Operador ternário
 $idade = 22;
 $mensagem = $idade < 18 ? 'Você é menor de idade' : 'Você é maior de idade';
 echo $mensagem;
+echo "\n";
 
 #CONTINUE-BREAK
 
