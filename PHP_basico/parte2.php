@@ -15,10 +15,10 @@ $curso="Mecatrônica";
 //Concatenação
 #Concatenação - Forma 1:
 echo "Meu nome é $nome $sobrenome, tenho $idade anos, faço $curso.<br>";
-echo "\n";
+echo "(Brega)\n";
 #Concatenação - Forma 2:
 echo 'Meu nome é '.$nome.' '.$sobrenome.' ,tenho '.$idade.' anos, faço '.$curso.'.'.'<br>';
-echo "\n";
+echo "(Brega)\n";
 
 //Caracteres Especiais
 #\n
@@ -63,6 +63,28 @@ $idade = 22;
 $mensagem = $idade < 18 ? 'Você é menor de idade' : 'Você é maior de idade';
 echo $mensagem;
 echo "\n";
+
+echo ($resultado) ? 'Verdadeiro!' : 'Falso!';
+echo "\n";
+
+#Switch
+$nome = "Andressa";
+
+switch($nome){
+    case "Sandra";
+        echo "É Sandra!\n";
+        break;
+    case "Sena";
+        echo "É Sena!\n";
+        break;
+    case "Andressa";
+        echo "É Andressa!\n";
+        break;
+    default:
+        echo "Não é nenhum! :( \n";
+        break;
+
+}
 
 #CONTINUE-BREAK
 

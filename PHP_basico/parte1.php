@@ -36,6 +36,7 @@ $altura=1.58;
 $distancia=67.4;
 
 //Tipo Booleano
+#true,false
 $resposta=TRUE;
 $gabarito=FALSE;
 
