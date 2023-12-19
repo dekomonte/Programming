@@ -12,6 +12,17 @@ $sobrenome="Monteiro";
 $idade=26;
 $curso="Mecatrônica";
 
+//Aspas simples X Aspas duplas
+#Quando você coloca entre "", ele considera uma variável dentro da string
+#Pode colocar a variável entre {} ou não
+$idade=43;
+
+echo 'A idade é $idade \n';
+echo "A idade é $idade \n";
+echo "A idade é {$idade} \n";
+#Com '', ele nem considera o \n
+
+
 //Concatenação
 #Concatenação - Forma 1:
 echo "Meu nome é $nome $sobrenome, tenho $idade anos, faço $curso.<br>";
