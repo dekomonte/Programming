@@ -6,6 +6,8 @@ Repositório dedicado a estudos na Área de Programação.
 * Javascript
 * Python
 * C/C++
+* SQL
+* HTML/CSS
 
 #### Assuntos a serem estudados
 
@@ -30,9 +32,3 @@ Teoria básica sobre _Programação Orientada a Objetos_.
 
 ### Códigos
 Scripts aleatórios. 
-
-#### Python
-"Hello World!".
-
-#### Javascript
-Escrita na tela.
