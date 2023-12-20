@@ -33,6 +33,7 @@ $contasCorrentes[123459] = [
 foreach ($contasCorrentes as $rg=>$conta){
     echo "$rg"." ".$conta['dono_rg']." ".$conta['saldo'];
     echo "<br>";
+    echo "\n";
 }
 #O PHP só trabalha com valores de chave do tipo numérico inteiro ou strings
 #Os arrays são armazenados como HashTables
@@ -43,6 +44,7 @@ echo "<br>";
 foreach ($contasCorrentes as $rg=>$conta){
     exibeMensagem("$rg"." ".$conta['dono_rg']." ".$conta['saldo']);
     echo "<br>";
+    echo "\n";
 }
 
 $contasCorrentes[123456]['saldo']+=4500;
@@ -53,6 +55,17 @@ echo "<br>";
 foreach ($contasCorrentes as $rg=>$conta){
     exibeMensagem("$rg"." ".$conta['dono_rg']." ".$conta['saldo']);
     echo "<br>";
+    echo "\n";
+}
+
+/*---------------Estruturas de Repetição---------------*/
+#FOREACH
+$nomes = ['Alexandre','Kleber','Thiaga'];
+
+#"Para cada" nome dentro do Array vai ser guardado dentro de uma variável
+foreach($nomes as $key => $nome){
+    echo $key . '=>' . $nome;
+    echo "\n";
 }
 
 ?>

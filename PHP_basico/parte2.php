@@ -118,5 +118,14 @@ switch($nome){
 }
 
 #CONTINUE-BREAK
+#Não funcionam muito bem nos loops com WHILE - Trava o terminal
+#Funciona no foreach também
+$nomes = ['Alexandre','Kleber','Thiaga'];
+foreach($nomes as $key => $nome){
+    echo $nome."\n";
+    if($key === 1){
+        break;
+    }
+}
 
 ?>

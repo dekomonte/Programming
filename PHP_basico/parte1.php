@@ -162,6 +162,16 @@ echo "\n";
 for($cont=1;$cont<=10;$cont++){
     echo "$cont";
 }
+echo "\n";
+
+$nomes = ['Alexandre','Kleber','Thiaga'];
+
+for($i=0;$i<count($nomes);$i++){
+    echo $i;
+    echo ' ';
+    echo $nomes[$i];
+    echo "\n";
+}
 
 /*---------------Padrões de Nome---------------*/
 #camelCase
