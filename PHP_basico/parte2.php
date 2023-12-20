@@ -40,6 +40,23 @@ echo "(Brega)\n";
 #Outra forma de quebrar linha:
 echo "Olá mundo!".PHP_EOL;
 
+/*---------------Mudando Tipo de Variável---------------*/
+$name = 'Alexandre';
+$change = (boolean) $name;
+var_dump($change);
+
+$number = 34;
+$change = (boolean) $number;
+var_dump($change);
+
+$number = 34.876;
+$change = (int) $number;
+var_dump($change);
+
+$nomes = ['Alexandre', 'Gustavo', 'Julio'];
+$change = (object) $nomes;
+var_dump($change);
+
 /*---------------Operações Matemáticas---------------*/
 #+,-,*,**,/,%
 
