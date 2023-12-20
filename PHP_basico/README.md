@@ -9,3 +9,4 @@ Parte 4 - Foreach <br/>
 Parte 4 - Array <br/>
 Parte 5 - Declaração de Funções e Strings Complexas <br/>
 Parte 6 - Exemplo: Conexão com Banco de Dados <br/>
+Parte 7 -
