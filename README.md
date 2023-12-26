@@ -30,7 +30,7 @@ Descrição dos diretórios do projeto.
 ### Banco_Dados
 Teoria básica sobre _Banco de Dados_.
 
-### Codigos
+### Diversos
 Scripts aleatórios. 
 
 ### PHP_avancado
