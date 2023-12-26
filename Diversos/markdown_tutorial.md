@@ -28,7 +28,7 @@ Anotações de como fazer algumas coisas usando markdown.
 
 *** 
 ## Ênfase
-É possível utilizar os destaques de no texto abaixo. 
+É possível utilizar os destaques de no texto abaixo. <br/>
 _Texto em Itálico_ <br/>
 **Texto em Negrito** <br/>
 **_Texto em Itálico e Negrito_** <br/>
