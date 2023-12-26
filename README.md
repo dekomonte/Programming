@@ -1,3 +1,5 @@
+# Programming
+
 Repositório dedicado a estudos na Área de Programação.
 
 #### Linguagens do Projeto
@@ -39,7 +41,6 @@ Sintaxe básica de PHP: <br/>
 * Estruturas de Repetição, Estruturas de Seleção <br/>
 * Lista, Array Associativo <br/>
 * Funções, Strings Complexas <br/>
-
 
 ### POO
 Teoria básica sobre _Programação Orientada a Objetos_.
