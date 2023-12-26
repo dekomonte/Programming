@@ -1,7 +1,10 @@
- Anotações Markdown
- 
+ # Anotações Markdown
+Anotações de como fazer algumas coisas usando markdown.
+
 ***
-# Headers
+## Headers
+É possível usar 6 tamanhos de fonte de título.
+
 # Título 
 ## Título
 ### Título 
@@ -10,7 +13,8 @@
 ###### Título 
 
 ***
-# Listas
+## Listas
+É possível fazer listas das duas formas a seguir.
 
 ### Forma 1
  * Item
@@ -23,17 +27,14 @@
 3. Item
 
 *** 
-# Itálico e Negrito
-_Texto em Itálico_
-**Texto em Negrito**
-**_Texto em Itálico e Negrito_**
+## Ênfase
+É possível utilizar os destaques de no texto abaixo. 
+_Texto em Itálico_ <br/>
+**Texto em Negrito** <br/>
+**_Texto em Itálico e Negrito_** <br/>
 
 ***
-# Quebra de Linha
-<br/>
-
-***
- # Blockquotes
+## Blockquotes
  > Sea of Stars é um dos jogos mais lindos que eu já joguei.
  >
  > Elden Ring é o próximo da lista.
