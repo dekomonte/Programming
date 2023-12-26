@@ -23,12 +23,23 @@ Repositório dedicado a estudos na Área de Programação.
 .<br/>
 
 ## Diretórios
+Descrição dos diretórios do projeto. 
 
 ### Banco_Dados
 Teoria básica sobre _Banco de Dados_.
 
-### POO
-Teoria básica sobre _Programação Orientada a Objetos_.
-
 ### Codigos
 Scripts aleatórios. 
+
+### PHP_avancado
+
+### PHP_basico
+Sintaxe básica de PHP:
+Inclusão de Arquivo, Variáveis, Operadores <br/>
+Estruturas de Repetição, Estruturas de Seleção <br/>
+Lista, Array Associativo <br/>
+Funções, Strings Complexas <br/>
+
+
+### POO
+Teoria básica sobre _Programação Orientada a Objetos_.
