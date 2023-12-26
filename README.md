@@ -34,11 +34,11 @@ Scripts aleatórios.
 ### PHP_avancado
 
 ### PHP_basico
-Sintaxe básica de PHP:
-Inclusão de Arquivo, Variáveis, Operadores <br/>
-Estruturas de Repetição, Estruturas de Seleção <br/>
-Lista, Array Associativo <br/>
-Funções, Strings Complexas <br/>
+Sintaxe básica de PHP: <br/>
+* Inclusão de Arquivo, Variáveis, Operadores <br/>
+* Estruturas de Repetição, Estruturas de Seleção <br/>
+* Lista, Array Associativo <br/>
+* Funções, Strings Complexas <br/>
 
 
 ### POO
