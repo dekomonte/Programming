@@ -52,3 +52,9 @@ Esse usuário tem uma [página](https://dekomonte.github.io/).
 - [x] Tarefa 1
 - [ ] Tarefa 2
 - [ ] Tarefa 3
+
+***
+## Emoji
+É possível adicionar emojis aos projeto. <br/>
+:metal: <br/>
+:video_game: </br>
