@@ -42,3 +42,13 @@ _Texto em Itálico_ <br/>
  >
  > Elden Ring é o próximo da lista.
 
+***
+## Links
+Esse usuário tem uma [página](https://dekomonte.github.io/)
+
+***
+## Lista de Tarefas
+É possível colocar uma lista de tarefas.
+[x] Tarefa 1
+[] Tarefa 2
+[] Tarefa 3
