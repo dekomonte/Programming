@@ -48,7 +48,7 @@ Esse usuário tem uma [página](https://dekomonte.github.io/)
 
 ***
 ## Lista de Tarefas
-É possível colocar uma lista de tarefas.
-[x] Tarefa 1
-[] Tarefa 2
-[] Tarefa 3
+É possível colocar uma lista de tarefas. <br/>
+- [x] Tarefa 1
+- [] Tarefa 2
+- [] Tarefa 3
