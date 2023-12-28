@@ -35,4 +35,31 @@ function f1($nome){
 
 echo call_user_func('f1','Andressa');
 
+/*---------------Verificar se uma Variável existe---------------*/
+echo "\n";
+$nome = 'Alexandre';
+echo isset($nome);
+echo "\n";
+
+if(isset($nome)){
+    echo "Existe!\n";
+}
+else{
+    echo "Não Existe!\n";
+}
+
+$person = ['name'=>'Alexandre', 'age'=>39];
+echo isset($person['address']);
+
+/*---------------Escopos Local e Global---------------*/
+$nome_exemplo = 'Andressa';
+
+function pessoa(){
+    global $nome_exemplo;
+    echo $nome_exemplo;
+    echo "\n";
+}
+
+pessoa();
+
 ?>
