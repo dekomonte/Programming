@@ -27,4 +27,8 @@ o que chamamos de chave primária ou primary key;
 -Existem 2 tipos de chaves: NATURAL(pertence ao registro) e ARTIFICIAL(criamos - geralmente uma coluna id no 
 início numerando os registros)
 -Chaves artificiais são mais utilizadas 
+
 ----------#----------#----------#----------#----------#----------#----------#----------#----------#
+-> Cardinalidade e Obrigatoriedade
+
+-Quem define a Cardinalidade é a sua regra de negócio, não eu
