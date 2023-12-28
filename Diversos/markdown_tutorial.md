@@ -3,7 +3,7 @@ Anotações de como fazer algumas coisas usando markdown.
 
 ***
 ## Headers
-É possível usar 6 tamanhos de fonte de título.
+É possível usar 6 tamanhos hierárquicos de fonte de título.
 
 # Título 
 ## Título
@@ -27,11 +27,14 @@ Anotações de como fazer algumas coisas usando markdown.
 3. Item
 
 *** 
-## Ênfase
-É possível utilizar os destaques de no texto abaixo. <br/>
+## Ênfase - Estilo do Texto
+É possível utilizar os destaques de texto abaixo. <br/>
 _Texto em Itálico_ <br/>
 **Texto em Negrito** <br/>
+~~Texto Tachado~~<br/>
 **_Texto em Itálico e Negrito_** <br/>
+<sub>Subscrito</sub> <br/>
+<sup>Sobrescrito</sup> <br/>
 
 ***
 ## Blockquotes
