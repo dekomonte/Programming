@@ -73,6 +73,10 @@ Esse usuário tem uma [página](https://dekomonte.github.io/).
 É possível adicionar emojis aos projeto. <br/>
 :metal: <br/>
 :video_game: </br>
+:owl: <br/>
+:rainbow: <br/>
+:musical_note: <br/>
+:smilling_face_with_sunglasses: <br/>
 
 ***
 ## Linhas Horizontais
