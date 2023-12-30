@@ -106,23 +106,23 @@ Alinhamentos:
 
 ***
 ## Blocos de Código
-É possível destacar trechos de código colocando 4 espaços antes do script ou colocando o trecho entre 3´.
+É possível destacar trechos de código colocando 4 espaços antes do script ou colocando o trecho entre 3`.
 
 Exemplo:
-Informe os parâmetros ´usuario´ e ´senha´ para a função ´login()´.
+Informe os parâmetros `usuario` e `senha` para a função `login()`.
 
-´´´
+```
 int idade1 = 26;
 int idade2 = 20;
 
 print(idade1);
 print(idade2);
-´´´
+```
 
-´´´python
-int idade1 = 26;
-int idade2 = 20;
+```python
+int idade1 = 26
+int idade2 = 20
 
-print(idade1);
-print(idade2);
-´´´
+print(idade1)
+print(idade2)
+```
