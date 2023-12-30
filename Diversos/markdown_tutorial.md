@@ -1,6 +1,8 @@
  # Anotações Markdown
 Anotações de como fazer algumas coisas usando markdown.
 
+Markdown é uma linguagem simples de marcação de texto.
+
 ***
 ## Headers
 É possível usar até 6 tamanhos hierárquicos de fonte de título.
@@ -75,3 +77,8 @@ Esse usuário tem uma [página](https://dekomonte.github.io/).
 ***
 ## Linhas Horizontais
 3* ou 3-
+
+***
+## Imagens
+É possível colocar imagens no texto. <br/>
+![Exemplo](/Programming/Diversos/img_ex.jpg)
