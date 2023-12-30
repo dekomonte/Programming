@@ -85,9 +85,21 @@ Esse usuário tem uma [página](https://dekomonte.github.io/).
 
 ***
 ## Tabelas
-Exemplo de tabela:
+Exemplos de tabelas:
 
-|Nome |Idade|
-|-----|------|
-|Andressa|26|
-|Álvaro|22|
+| Nome | Idade |
+| ----- | ------ |
+| Andressa | 26 |
+| Álvaro | 22 |
+
+| Nome | Idade | Profissão |
+| ----- | ------ | ----- |
+| Andressa | 26 | Engenharia |
+| Álvaro | 22 | Medicina |
+
+Alinhamentos:
+
+| Nome | Idade | Profissão |
+| :----- | :------: | -----: |
+| Andressa | 26 | Engenharia |
+| Álvaro | 22 | Medicina |
