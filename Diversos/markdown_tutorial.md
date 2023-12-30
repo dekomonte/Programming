@@ -76,7 +76,7 @@ Esse usuário tem uma [página](https://dekomonte.github.io/).
 :owl: <br/>
 :rainbow: <br/>
 :musical_note: <br/>
-:smilling_face_with_sunglasses: <br/>
+:smiling_face_with_sunglasses: <br/>
 
 ***
 ## Linhas Horizontais
