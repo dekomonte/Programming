@@ -3,14 +3,14 @@ Anotações de como fazer algumas coisas usando markdown.
 
 ***
 ## Headers
-É possível usar 6 tamanhos hierárquicos de fonte de título.
+É possível usar até 6 tamanhos hierárquicos de fonte de título.
 
-# Título 
-## Título
-### Título 
-#### Título 
-##### Título 
-###### Título 
+# Título 1
+## Título 2
+### Título 3
+#### Título 4
+##### Título 5
+###### Título 6
 
 ***
 ## Listas
