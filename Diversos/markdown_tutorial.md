@@ -13,15 +13,25 @@ Anotações de como fazer algumas coisas usando markdown.
 ###### Título 6
 
 ***
+## Quebra de linha no Parágrafo
+Dá pra fazer tanto com a tag do HTML quanto adicionando dois espaços em branco onde se quer quebrar.  
+
+
+Espaçamento entre parágrafos: apertar Enter duas vezes no final do parágrafo.
+
+***
 ## Listas
 É possível fazer listas das duas formas a seguir.
 
 ### Forma 1
+Lista não-ordenada:
  * Item
  * Item
  * Item
+Pode ser feita com *, - ou +.
  
 ### Forma 2
+Lista ordenada:
 1. Item
 2. Item
 3. Item
@@ -31,10 +41,13 @@ Anotações de como fazer algumas coisas usando markdown.
 É possível utilizar os destaques de texto abaixo. <br/>
 _Texto em Itálico_ <br/>
 **Texto em Negrito** <br/>
+__Texto em Negrito__ <br/>
 ~~Texto Tachado~~<br/>
 **_Texto em Itálico e Negrito_** <br/>
+***Texto em Itálico e Negrito*** <br/>
 <sub>Subscrito</sub> <br/>
 <sup>Sobrescrito</sup> <br/>
+> Texto citação
 
 ***
 ## Blockquotes
@@ -58,3 +71,7 @@ Esse usuário tem uma [página](https://dekomonte.github.io/).
 É possível adicionar emojis aos projeto. <br/>
 :metal: <br/>
 :video_game: </br>
+
+***
+## Linhas Horizontais
+3* ou 3-
