@@ -10,9 +10,11 @@
 #Data de validade
 #Posso guardar vários tipos de dados
 #Posso excluir ele manualmente
+setcookie('name','Alexandre', time() + 2*24*60*60);
 
 //$_SESSION
 #Guardado no navegador mas não o seu valor
+$_SESSION['name']='Alexandre';
 
 //$_ENV
 
