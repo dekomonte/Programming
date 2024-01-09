@@ -8,11 +8,14 @@ Programação Orientada a Objetos - Parte 2
 
 ---------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
 Herança
-
 -Classes estendendo propriedades de outras classes
 -Uma classe herda tudo que uma classe base tem e adicona comportamentos específicos
 -"parent" -> Chamar o construtor da classe base
 -"protected"
+
+Polimorfismo
+-Estipula que uma referência pode ter vários tipos e se comportar de formas diferentes, mas existindo semelhanças o suficiente de modo a atender a alguns requisitos
+-Capacidade de um objeto poder ser referenciado de várias formas 
 
 ---------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
 Modificadores de acesso para atributos e/ou métodos (PHP)
@@ -34,7 +37,3 @@ Classes Filhas e Método Abstrato
 Classes de Serviço
 -Executam alguma ação e não representam um modelo do negócio
 ---------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
-Polimorfismo
-
--Estipula que uma referência pode ter vários tipos e se comportar de formas diferentes, mas existindo semelhanças o suficiente de modo a atender a alguns requisitos
--Capacidade de um objeto poder ser referenciado de várias formas 
