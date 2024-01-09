@@ -13,8 +13,8 @@ Programação Orientada a Objetos
 -Instância (criar um objeto a partir do molde) = Objeto
 -Objeto (ou instância) é o nome dado para cada item gerado através de uma classe
 -Classe é o molde; Objeto é o elemento criado a partir do molde
--Classe (Bloco de código) -> Atributos(variáveis) e Métodos(funções)
--Atributos = "variáveis" que fazem parte de um objeto
+-Classe (Bloco de código) -> Atributos(variáveis/constantes) e Métodos(funções)
+-Atributos = "variáveis/constantes" que fazem parte de um objeto
 -Métodos: ações que as minhas classes podem tomar/comportamentos
 
 ---------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
