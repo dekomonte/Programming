@@ -26,4 +26,4 @@ SELECT COUNT(*) FROM relatorio_apolice_global_certificados_rc_profissional WHERE
 
 SELECT NOME, NOME_DO_ARQUIVO, LOWER(E_MAIL), ID_RELATORIO FROM relatorio_apolice_global_certificados_rc_profissional WHERE (E_MAIL is not NULL) AND (ENVIADO = 0) AND (ID_RELATORIO BETWEEN 1101 AND 1200);
 
-SELECT * FROM relatorio_apolice_global_certificados_rc_profissional WHERE E_MAIL = 'exemploaleatorio@gmail.com'
+SELECT * FROM relatorio_apolice_global_certificados_rc_profissional WHERE E_MAIL = 'exemploaleatorio@gmail.com';

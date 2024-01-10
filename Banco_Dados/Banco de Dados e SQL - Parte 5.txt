@@ -32,3 +32,12 @@ início numerando os registros)
 -> Cardinalidade e Obrigatoriedade
 
 -Quem define a Cardinalidade é a sua regra de negócio, não eu
+
+----------#----------#----------#----------#----------#----------#----------#----------#----------#
+-> Modelagem - Modelo Lógico para Modelo Físico
+-Modelagens: Conceitual, Lógica, Física
+-Chave primária: ID que o registro tem que ter, células únicas
+-AUTO_INCREMENT
+-UNIQUE
+-Não há vírgula após a última coluna da tabela
+
