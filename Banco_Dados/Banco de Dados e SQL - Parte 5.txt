@@ -41,3 +41,6 @@ início numerando os registros)
 -UNIQUE
 -Não há vírgula após a última coluna da tabela
 
+-> Foreign Key
+-Chave estrangeira é a Chave primária de uma tabela que vai até a outra tabela para fazer referência entre registros
+
