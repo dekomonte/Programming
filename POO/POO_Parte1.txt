@@ -7,19 +7,15 @@ Programação Orientada a Objetos
 
 ---------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
 ->O que é uma Classe?/O que é um Objeto?
+-Abstração
 -Estrutura
 -Forma para criar outras estruturas
 -Instância (criar um objeto a partir do molde) = Objeto
 -Objeto (ou instância) é o nome dado para cada item gerado através de uma classe
--Classe é o molde, Objeto é o elemento criado a partir do molde
-
----------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
-->Tipos, Propriedades e Métodos
--Atributos = "variáveis" que fazem parte de um objeto
--Visibilidade
--Tipagem forte
+-Classe é o molde; Objeto é o elemento criado a partir do molde
+-Classe (Bloco de código) -> Atributos(variáveis/constantes) e Métodos(funções)
+-Atributos = "variáveis/constantes" que fazem parte de um objeto
 -Métodos: ações que as minhas classes podem tomar/comportamentos
--$this
 
 ---------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
 ->Métodos de Acesso
@@ -42,9 +38,8 @@ Programação Orientada a Objetos
 __construct
 __destruct
 
----------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
 ->Contrutores
--Bloco declarado com o mesmo nome que a classe
+-Está relacionado a um método especial dentro da classe que vai ser executado automaticamente sempre que um novo objeto é criado a partir dessa classe
 
 ---------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
 ->Composição
