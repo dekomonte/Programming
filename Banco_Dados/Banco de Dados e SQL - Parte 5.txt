@@ -44,3 +44,6 @@ início numerando os registros)
 -> Foreign Key
 -Chave estrangeira é a Chave primária de uma tabela que vai até a outra tabela para fazer referência entre registros
 -Conceito de cardinalidade aparece aqui de novo
+-DROP TABLE {nome da tabela} (apagar tabela)
+-CONSTRAINT
+-Coloco FOREIGN KEY no script de criação do banco
