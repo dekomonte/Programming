@@ -53,3 +53,11 @@ início numerando os registros)
 -Banco de dados é teoria dos Conjuntos
 -Projeção: tudo que você quer ver na tela
 -Seleção: subconjunto do conjunto total de registros de uma tabela; a cláusula de seleção é o WHERE (filtro)
+-Junção -> Join
+
+Exemplo de query completa: 
+SELECT NOME, SEXO, BAIRRO, CIDADE
+FROM CLIENTE
+INNER JOIN ENDERECO
+ON IDCLIENTE = ID_CLIENTE
+WHERE SEXO='F'; 
