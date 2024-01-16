@@ -47,3 +47,9 @@ início numerando os registros)
 -DROP TABLE {nome da tabela} (apagar tabela)
 -CONSTRAINT
 -Coloco FOREIGN KEY no script de criação do banco
+
+----------#----------#----------#----------#----------#----------#----------#----------#----------#
+-> Seleção, Projeção e Junção
+-Banco de dados é teoria dos Conjuntos
+-Projeção: tudo que você quer ver na tela
+-Seleção: subconjunto do conjunto total de registros de uma tabela; a cláusula de seleção é o WHERE (filtro)
