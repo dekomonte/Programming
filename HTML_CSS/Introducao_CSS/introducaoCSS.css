@@ -39,4 +39,9 @@ a{
     font-variant: normal;
 }
 
+.destaque{
+    background-color: cornflowerblue;
+    color:darkred;
+}
+
 /*Comentário CSS*/
