@@ -69,4 +69,26 @@ foreach($contasCorrente as $cpf=>$conta){
     echo $cpf.PHP_EOL;
 }
 
+#Exemplo: FOREACH em um Array Simples. 
+$nomes = [
+    "Elza", 
+    "Rapunzel", 
+    "Branca de Neve", 
+    "Cinderela",
+    "Aurora",
+    "Ariel",
+    "Moana",
+    "Mirabel",
+    "Bela",
+    "Jasmine",
+    "Pocahontas",
+    "Mulan",
+    "Tiana",
+    "Merida"
+];
+
+foreach ($nomes as $nome){
+    echo "$nome <br>";
+}
+
 ?>
