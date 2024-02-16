@@ -1,4 +1,4 @@
-### PHP
+### PHP Básico - Índice
 Partes de 1 a 6 contendo um pouco da sintaxe dos conceitos básicos de PHP.<br/>
 Partes de 7 a 8 contendo um conteúdo extra.<br/>
 <br/>
