@@ -26,3 +26,20 @@ Relacionamento
 ->Propriedades do Relacionamento
 -Restrição de Cardinalidade: quantidade (1:1,1:N; N:1,N:N)
 -Restrição de Participação: total, parcial
+
+
+
+
+-----#-----#-----#-----
+Produto Cartesiano
+-Mistura tudo com tudo
+-join
+
+Funções de Grupo (GROUP BY)
+-AGV
+-COUNT
+-MAX
+-MIN
+
+Subqueries
+
