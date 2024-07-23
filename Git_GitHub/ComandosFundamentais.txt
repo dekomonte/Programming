@@ -1,0 +1,30 @@
+Verificar Alteracoes no Projeto
+git status
+
+Inicializa um Repositório
+git init
+
+Adicionar Arquivos ao Projeto
+git add 'nome completo do arquivo'
+git add . 
+
+Salvar Alteracoes do Projeto
+git commit -a -m "mensagem"
+
+Enviar Código ao Repositório
+git push
+
+Receber Mudancas do Repositório
+git pull
+
+Baixar (clonar) um Repositório
+git clone "endereco do repositório"
+
+Deletar Arquivos do Projeto
+git rm 'nome completo do arquivo'
+
+Histórico de Alteracoes
+git log
+git log -graph
+git shortlog
+
