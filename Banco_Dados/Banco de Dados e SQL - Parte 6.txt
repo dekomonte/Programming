@@ -1,5 +1,12 @@
 O Curso Completo de Banco de Dados e SQL, sem mistérios! - Parte 6      \\Curso da Udemy
 
 ----------#----------#----------#----------#----------#----------#----------#----------#----------#
-->Funcão IFNULL
+-> Funcão IFNULL
 -Recebe um parâmetro para verificar se é nulo e outro para exibir no lugar do item nulo (string)
+
+
+-> Views
+-Objeto do Banco de Dados
+-Funciona como um ponteiro
+-View aponta pra query
+-Aparece no comando "SHOW TABLES"
