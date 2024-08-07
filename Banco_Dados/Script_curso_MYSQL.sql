@@ -1,3 +1,5 @@
+--O Curso Completo de Banco de Dados e SQL, sem mistérios!          \\Curso da Udemy
+
 /* Modelagem Básica 
 
 ENTIDADE=TABELA

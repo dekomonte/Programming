@@ -1,0 +1,5 @@
+O Curso Completo de Banco de Dados e SQL, sem mistérios! - Parte 6      \\Curso da Udemy
+
+----------#----------#----------#----------#----------#----------#----------#----------#----------#
+->Funcão IFNULL
+-Recebe um parâmetro para verificar se é nulo e outro para exibir no lugar do item nulo (string)
