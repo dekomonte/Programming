@@ -3,7 +3,7 @@ Programação Orientada a Objetos
 -Diferente de Programação Procedural
 -A partir de uma classe, podemos criar objetos que servirão de base para montarmos todo o sistema
 -Abstração e Encapsulamento - Pilares da POO
--Refletir objetos da vida real na programaçãp
+-Refletir objetos da vida real na programação
 
 ---------#---------#--------#---------#---------#--------#---------#---------#--------#---------#---------#--------#---------
 ->O que é uma Classe?/O que é um Objeto?
