@@ -2634,6 +2634,7 @@ INNER JOIN ENDERECO E
 ON C.IDCLIENTE = E.ID_CLIENTE
 ORDER BY 1
 
+--Dá informações sobre a infraestrutura do banco
 STATUS
 
 DELIMITER $
