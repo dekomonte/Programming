@@ -2476,6 +2476,7 @@ INSERT INTO V_RELATORIO VALUES(
 'ANDREIA','F','ANDREIA@UOL.COM.BR','CEL','873547864','CENTRO','VITORIA','ES'
 );
 
+/* NÁO É PERMITIDO FAZER INSERT E DELETE EM VIEWS COM JOIN */
 ERROR 1394 (HY000): Can not insert into join view 'comercio.v_relatorio' without fields list
 ERROR 1395 (HY000): Can not delete from join view 'comercio.v_relatorio'
 
