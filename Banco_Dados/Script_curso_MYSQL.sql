@@ -2561,6 +2561,7 @@ ORDER BY 2;
 SELECT * FROM ALUNOS
 ORDER BY 1;
 
+--Os dois comandos abaixo fazem a mesma coisa 
 SELECT * FROM ALUNOS
 ORDER BY NUMERO, NOME;
 
