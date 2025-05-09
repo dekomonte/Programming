@@ -3,7 +3,7 @@
 # Arquitetura de Software
 
 -Banco de Dados: usado pra armazenar informações do sistema, gerenciar os dados
--Padrão MVC (Arquitetura de Softaware)
+-Padrão MVC (Arquitetura de Software)
 	-Viewer 
 	-Controller - Processamento
 	-Model - Classes modelos(representadas por tabelas nos bancos de dados)*/
