@@ -2,30 +2,21 @@
 
 Repositório dedicado a estudos na Área de Programação.
 
-#### Linguagens do Projeto
+#### Referências - Linguagens
 
 * PHP
-* Javascript
-* Python
-* C/C++
 * SQL
-* HTML/CSS
+* Markdown
 
-#### Assuntos a serem estudados
+### Diretórios - Assuntos
 
-1. Banco de Dados
-2. Programação Orientada a Objetos
-3. Desenvolvimento Web (front-end)
-4. Arquiteturas - Ex: MVC (Model-View-Controller)
-5. Ferramentas de Controle de Versão
-6. Linguagens de Programação
-7. Frameworks <br/>
+1. Banco de Dados - (MySQL e SQLServer)
+2. Diversos - Markdown
+3. PHP_basico - PHP
 .<br/>
 .<br/>
 .<br/>
-
-## Diretórios
-Descrição dos diretórios do projeto. 
+.<br/>
 
 ### Banco_Dados
 Teoria básica sobre _Banco de Dados_.
@@ -33,14 +24,9 @@ Teoria básica sobre _Banco de Dados_.
 ### Diversos
 Scripts aleatórios. 
 
-### PHP_avancado
-
 ### PHP_basico
 Sintaxe básica de PHP: <br/>
 * Inclusão de Arquivo, Variáveis, Operadores <br/>
 * Estruturas de Repetição, Estruturas de Seleção <br/>
 * Lista, Array Associativo <br/>
 * Funções, Strings Complexas <br/>
-
-### POO
-Teoria básica sobre _Programação Orientada a Objetos_.
