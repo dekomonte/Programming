@@ -94,3 +94,24 @@ Cada permissão possui um valor numérico fixo. Para definir a permissão final,
 * `/var` - **Variáveis:** Arquivos que mudam de tamanho (logs de sistema, filas de e-mail, bancos de dados).
 * `/home` - **Usuários:** Onde ficam as pastas pessoais de cada usuário (documentos, fotos, etc).
 * `/lib` - **Bibliotecas:** Arquivos compartilhados essenciais para que os comandos do sistema funcionem.
+
+# 📂 Gerenciamento de Processos
+
+O sistema operacional utiliza processos para executar tarefas. Abaixo estão os comandos para monitorar e controlar o que está rodando na sua máquina.
+
+* `ps -e` - Lista todos os processos em execução no sistema de forma simplificada.
+    * *Ex:* `ps -e` (Útil para uma espiada rápida no que está ativo).
+* `ps -ef` - Lista todos os processos com informações detalhadas (UID, PID, PPID, tempo de CPU).
+    * *Ex:* `ps -ef | grep "firefox"` (Localiza especificamente o processo do navegador Firefox para ver seu ID).
+* `kill <PID>` - Encerra (mata) um processo específico através do seu ID de Processo (PID).
+    * *Ex:* `kill 1234` (Tenta encerrar o processo educadamente).
+    * *Dica:* Use `kill -9 <PID>` para forçar o encerramento imediato se o processo estiver travado.
+* `top` - Exibe uma tabela dinâmica e em tempo real dos processos que mais consomem recursos (CPU/RAM).
+    * *Ex:* Digite `top` no terminal. Pressione `q` para sair ou `M` para ordenar por uso de memória.
+
+---
+
+### 💡 Dica de Ouro: O que é o PID?
+O **PID** (*Process Identifier*) é um número único que o Linux atribui a cada tarefa. Para encerrar um programa que travou:
+1. Use `ps -ef | grep nome_do_programa` para achar o número.
+2. Use `kill` seguido desse número.
