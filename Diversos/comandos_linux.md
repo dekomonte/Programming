@@ -3,6 +3,7 @@
 ```pwd``` - Informa o caminho do diretório atual<br>
 ```sudo``` - Fazer as coisas com permissão de usuário admin <br>
 ```sudo adduser``` - Adiciona um usuário <br>
+```sudo deluser --remove-home``` - Deleta um usuário <br>
 ```cp``` - Copia um arquivo <br>
 ```mv``` - Move um arquivo/Renomear um arquivo <br>
 ```mkdir``` - Cria uma pasta <br>
@@ -30,6 +31,20 @@
 ```cat arquivo.txt``` - Lê um arquivo<br>
 ```head arquivo.txt``` - Retorna só o início do arquivo (5 primeiras linhas)<br>
 ```tail arquivo.txt``` - Retorna só o final do arquivo (5 últimas linhas)<br>
+
+# Tabela de Permissões
+
+|-|Letras|Descrição|
+|---|--------|--------|
+|7|rwx|Leitura, Gravação e Execução|
+|6|	rw-	|Leitura e Gravação|
+|5|	r-x	|Leitura e Execução|
+|4|	r--	|Apenas Leitura|
+|3|	-wx	|Gravação e Execução|
+|2|	-w-	|Apenas Gravação|
+|1|	--x	|Apenas Execução|
+|0|	---	|Nenhuma Permissão|
+
 
 # Diretórios 
 
