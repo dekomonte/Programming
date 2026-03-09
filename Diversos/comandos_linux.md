@@ -2,9 +2,7 @@
 
 ### 📂 Navegação e Essenciais
 * `pwd` - Informa o caminho do diretório atual.
-    * *Ex:* `pwd` (Retorna `/home/usuario/documentos`)
 * `cd` - Navegação entre diretórios.
-    * *Ex:* `cd Downloads`
 * `cd /` - Vai para o diretório raiz do sistema.
 * `cd -` - Volta para o diretório onde você estava anteriormente.
 * `cd ~` - Volta para o diretório "home" do seu usuário.
@@ -17,11 +15,12 @@
 ### 🛡️ Administração e Usuários
 * `sudo` - Executa comandos com privilégios de superusuário (root).
     * *Ex:* `sudo apt update`
+    * *Ex:* `sudo apt upgrade`
 * `whoami` - Mostra o nome do usuário logado no momento.
 * `sudo adduser` - Cria um novo usuário no sistema.
-    * *Ex:* `sudo adduser joao`
+    * *Ex:* `sudo adduser pedro`
 * `sudo deluser --remove-home` - Remove um usuário e sua pasta pessoal.
-    * *Ex:* `sudo deluser --remove-home joao`
+    * *Ex:* `sudo deluser --remove-home thiago`
 * `passwd` - Altera a senha de um usuário.
     * *Ex:* `passwd` (muda a sua) ou `sudo passwd joao` (muda a do joao).
 
