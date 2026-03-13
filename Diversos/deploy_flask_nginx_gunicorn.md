@@ -1,5 +1,7 @@
 # Guia de Deploy: Flask + Gunicorn + Nginx no Ubuntu Server (Gemini)
 
+[Nginx](https://nginx.org/en/docs/)
+
 Este guia assume que você tem um servidor Ubuntu limpo e acesso via SSH (Putty ou Remote Visual Studio Code).
 
 Passo a passo de criação de um **serviço** de uma aplicação Python (Flask).
