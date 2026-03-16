@@ -6,6 +6,10 @@ Este guia assume que você tem um servidor Ubuntu limpo e acesso via SSH (Putty 
 
 Passo a passo de criação de um **serviço** de uma aplicação Python (Flask).
 
+OBS: O tutorial do Gemini faz todo o procedimento admitindo que o diretório da aplicação é ```/var/www/my_flask_app/```, eu coloquei as aplicações na pasta de usuário ```/home/ubuntu/aplicacao```, então precisei fazer algumas alterações. 
+
+Assume-se que o usuário no Ubuntu é ```ubuntu``` e a pasta da aplicação é ```aplicacao```.
+
 ## 1. Preparação do Sistema
 
 Primeiro, atualize os pacotes e instale as dependências necessárias.
@@ -20,13 +24,13 @@ sudo apt install python3-pip python3-venv nginx git -y
 Vamos criar a estrutura de pastas, clonar o repositório e configurar o ambiente virtual.
 
 ```
-# Criar diretório da aplicação e ajustar permissões
-sudo mkdir -p /var/www/my_flask_app
-sudo chown $USER:$USER /var/www/my_flask_app
-cd /var/www/my_flask_app
+# Criar diretório da aplicação e ajustar permissões (no diretório da aplicação)
 
-# Clonar o repositório (substitua pela sua URL)
-git clone https://github.com/usuario/seu-repo-flask.git .
+sudo mkdir aplicacao
+sudo chown -R $USER:$USER
+
+# Clonar o repositório (no diretório da aplicação)
+git clone https://github.com/usuario/exemplo_aplicacao.git 
 
 # Criar e ativar ambiente virtual
 python3 -m venv venv
@@ -38,17 +42,21 @@ pip install -r requirements.txt
 pip install gunicorn
 ```
 
-Não esquecer de atualizar o .env (produção). 
+**NÃO ESQUECER DE ATUALIZAR .env (produção)!**
 
 #### Criando a pasta de Logs
 
 Para que o Gunicorn e o Nginx possam escrever logs na pasta da aplicação:
 
 ```
-mkdir -p /var/www/my_flask_app/logs
-touch /var/www/my_flask_app/logs/gunicorn_access.log
-touch /var/www/my_flask_app/logs/gunicorn_error.log
+#No diretório da aplicação
+
+mkdir -p logs
+touch logs/gunicorn_access.log
+touch logs/gunicorn_error.log
 ```
+
+OBS: Em produção pode ser uma boa prática alterar o diretório dos logs para o padrão como, por exemplo, os parâmetros que aparecemno arquivo do serviço (abaixo).
 
 ## 3. Configuração do Gunicorn (.service)
 O Systemd garantirá que sua aplicação inicie com o servidor e reinicie em caso de falhas.
@@ -56,7 +64,7 @@ O Systemd garantirá que sua aplicação inicie com o servidor e reinicie em cas
 Crie o arquivo de serviço:
 
 ```
-sudo nano /etc/systemd/system/my_flask_app.service
+sudo nano /etc/systemd/system/aplicacao.service
 ```
 
 **Conteúdo do arquivo:**
@@ -67,18 +75,17 @@ Description=Gunicorn instance to serve My Flask App
 After=network.target
 
 [Service]
-User=www-data
+User=ubuntu
 Group=www-data
-WorkingDirectory=/var/www/my_flask_app
-Environment="PATH=/var/www/my_flask_app/venv/bin"
-# Carregue variáveis de ambiente se necessário:
-# EnvironmentFile=/var/www/my_flask_app/.env
+WorkingDirectory=/home/ubuntu/aplicacao
+Environment="PATH=/home/ubuntu/aplicacao/venv/bin"
+# EnvironmentFile=/home/ubuntu/aplicacao/.env
 
-ExecStart=/var/www/my_flask_app/venv/bin/gunicorn \
+ExecStart=/home/ubuntu/aplicacao/venv/bin/gunicorn \
     --workers 3 \
-    --bind unix:app.sock \
-    --access-logfile /var/www/my_flask_app/logs/gunicorn_access.log \
-    --error-logfile /var/www/my_flask_app/logs/gunicorn_error.log \
+    --bind unix:/home/ubuntu/aplicacao/app.sock \
+    --access-logfile /home/ubuntu/aplicacao/logs/gunicorn_access.log \
+    --error-logfile /home/ubuntu/aplicacao/logs/gunicorn_error.log \
     --capture-output \
     --log-level info \
     app:app
@@ -108,12 +115,12 @@ server {
 
     location / {
         include proxy_params;
-        proxy_pass http://unix:/var/www/my_flask_app/app.sock;
+        proxy_pass http://unix:/home/ubuntu/aplicacao/app.sock;
     }
 
-    # Configuração de Logs customizada para a aplicação
-    access_log /var/www/my_flask_app/logs/nginx_access.log;
-    error_log /var/www/my_flask_app/logs/nginx_error.log;
+    # Logs dentro da pasta da aplicação
+    access_log /home/ubuntu/aplicacao/logs/nginx_access.log;
+    error_log /home/ubuntu/aplicacao/logs/nginx_error.log;
 }
 ```
 
@@ -122,18 +129,23 @@ server {
 Para que o Nginx consiga ler o arquivo de socket criado pelo Gunicorn, o usuário www-data precisa de permissões na pasta.
 
 ```
-# Ajustar dono da pasta para o usuário do servidor web
-sudo chown -R www-data:www-data /var/www/my_flask_app
-sudo chmod -R 755 /var/www/my_flask_app
+# 1. Permissões de pasta (Importante para rodar na Home)
+# Dá permissão de execução na home para o Nginx 'atravessar' as pastas
+chmod o+x /home/ubuntu 
 
-# Ativar a configuração do Nginx
-sudo ln -s /etc/nginx/sites-available/my_flask_app /etc/nginx/sites-enabled
-sudo rm /etc/nginx/sites-enabled/default # Remove o default para evitar conflitos
-sudo nginx -t # Testa a sintaxe
+# Garante que o grupo www-data tenha acesso aos arquivos da app
+sudo chown -R ubuntu:www-data /home/ubuntu/aplicacao
+sudo chmod -R 775 /home/ubuntu/aplicacao
 
-# Iniciar e habilitar serviços
-sudo systemctl start my_flask_app
-sudo systemctl enable my_flask_app
+# 2. Ativar a configuração do Nginx
+sudo ln -s /etc/nginx/sites-available/aplicacao /etc/nginx/sites-enabled/
+sudo rm -f /etc/nginx/sites-enabled/default
+sudo nginx -t
+
+# 3. Recarregar Systemd e Iniciar Serviços
+sudo systemctl daemon-reload
+sudo systemctl start aplicacao
+sudo systemctl enable aplicacao
 sudo systemctl restart nginx
 ```
 
@@ -143,15 +155,17 @@ Se algo der errado, use estes comandos para verificar os logs que configuramos:
 
 **Logs do Gunicorn**
 ```
-tail -f /var/www/my_flask_app/logs/gunicorn_error.log
+# Ver logs em tempo real (Erro do Gunicorn)
+tail -f /home/ubuntu/aplicacao/logs/gunicorn_error.log
 ```
 
 **Logs do Nginx**
 ```
-tail -f /var/www/my_flask_app/logs/nginx_error.log
+# Ver logs em tempo real (Erro do Nginx)
+tail -f /home/ubuntu/aplicacao/logs/nginx_error.log
 ```
 
 **Status do Serviço**
 ```
-sudo systemctl status my_flask_app
+sudo systemctl status aplicacao
 ```
