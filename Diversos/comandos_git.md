@@ -11,3 +11,5 @@
 ```git status```<br>
 ```git add```<br>
 ```git add .``` ```git add --all``` ```git add -A```<br>
+```git rm --cached```<br>
+```git rm --cached -r .```<br>
