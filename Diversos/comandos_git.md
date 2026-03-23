@@ -8,7 +8,7 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 #### Configuração de usuário
 ```git config --global user.name "Nome de usuário"``` <br>
 ```git config --global user.email "nomeusuario@email.com"```<br>
-```git config --list```
+```git config --list```<br>
 ```git config --global init.defaultBranch main``` <br>
 
 #### Manual
