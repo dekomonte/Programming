@@ -1,4 +1,6 @@
 # 🐧 Guia de Comandos Linux
+Google Gemini <br>
+https://www.udemy.com/course/terminal-linux-com-ubuntu
 
 ### 📂 Navegação e Essenciais
 * `pwd` - Informa o caminho do diretório atual.
