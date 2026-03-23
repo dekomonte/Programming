@@ -9,11 +9,22 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 ```git config --global user.name "Nome de usuário"``` <br>
 ```git config --global user.email "nomeusuario@email.com"```<br>
 ```git config --list```
+```git config --global init.defaultBranch main``` <br>
+
+#### Manual
+```git help <verb>```<br>
+```git <verb> help```<br>
+```man git-<verb>```<br>
 
 #### Essenciais
-```git init```<br>
-```git config --global init.defaultBranch main``` <br>
+
+##### Obter um repositório Git
+```git init``` - Cria um subdiretório .git;<br>
+```git clone [url]``` - Git recebe uma cópia completa de praticamente todos os dados que o servidor possui;<br>
+
+##### Verificar status de arquivos
 ```git status```<br>
+
 ```git add```<br>
 ```git add .``` ```git add --all``` ```git add -A```<br>
 ```git rm --cached```<br>
