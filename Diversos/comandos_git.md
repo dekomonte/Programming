@@ -8,7 +8,7 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 #### Configuração de usuário
 ```git config --global user.name "Nome de usuário"``` <br>
 ```git config --global user.email "nomeusuario@email.com"```<br>
-```git config --list```<br>
+```git config --list```
 ```git config --global init.defaultBranch main``` <br>
 
 #### Manual
@@ -24,8 +24,13 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 
 ##### Verificar status de arquivos
 ```git status```<br>
+```git status -s``` ```git status --short```<br>
+
+##### Verificar status de arquivos
+```git diff``` -  Compara o que está no seu diretório de trabalho com o que está no stage; <br>
 
 ##### Rastrear arquivos
+Adicione este conteúdo ao próximo commit <br>
 ```git add```<br>
 ```git add .``` ```git add --all``` ```git add -A```<br>
 
@@ -33,6 +38,8 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 ```git rm --cached -r .```<br>
 
 ```git commit -m "Mensagem"```<br>
+
+[.gitignore](https://github.com/github/gitignore)
 
 ### Conceitos
 
