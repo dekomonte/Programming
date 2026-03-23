@@ -25,8 +25,10 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 ##### Verificar status de arquivos
 ```git status```<br>
 
+##### Rastrear arquivos
 ```git add```<br>
 ```git add .``` ```git add --all``` ```git add -A```<br>
+
 ```git rm --cached```<br>
 ```git rm --cached -r .```<br>
 
@@ -47,3 +49,8 @@ Clientes duplicam localmente o repositório completo;
 *commited* → Dados armazenados no banco de dados local; <br>
 *modified* → Arquivo alterado, mas sem o commit;<br>
 *staged* → Marca a versão atual de um arquivo modificado para fazer parte do próximo commit;<br>
+
+##### "Ciclo de vida" de um arquivo
+Quando você clona um repositório pela primeira vez, todos os seus arquivos serão rastreados e não modificados já que o Git acabou de obtê-los e você ainda não editou nada. Assim que você edita alguns arquivos, Git os considera modificados, porque você os editou desde o seu último commit. Você prepara os arquivos editados e então faz commit das suas alterações, e o ciclo se repete.
+
+Untracked files → Arquivos que não tinham no commit anterior;
