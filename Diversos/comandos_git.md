@@ -17,7 +17,8 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 ```man git-<verb>```<br>
 
 #### Obter um repositório Git
-```git init``` - Cria um subdiretório .git;<br>
+Usar um comando ou outro, não precisa dos dois.<br>
+```git init``` - Cria um subdiretório .git (usado quando for para começar um projeto do zero na máquina pessoal);<br>
 ```git clone [url]``` - Git recebe uma cópia completa de praticamente todos os dados que o servidor possui;<br>
 
 #### Verificar status de arquivos
