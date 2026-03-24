@@ -8,7 +8,7 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 #### Configuração de usuário
 ```git config --global user.name "Nome de usuário"``` <br>
 ```git config --global user.email "nomeusuario@email.com"```<br>
-```git config --list```
+```git config --list```<br>
 ```git config --global init.defaultBranch main``` <br>
 
 #### Manual
@@ -26,8 +26,14 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 ```git status```<br>
 ```git status -s``` ```git status --short```<br>
 
-##### Verificar status de arquivos
+##### Verificar diferenças entre arquivos
+Diferenças entre arquivo modificado e arquivo commitado:<br>
 ```git diff``` -  Compara o que está no seu diretório de trabalho com o que está no stage; <br>
+
+Comparação da área de preparação com a versão já commitada:<br>
+```git diff --staged``` - Compara as alterações que estão no seu stage com o seu último commit; <br>
+```git diff --cached``` - Vê o que você já mandou para o stage até agora;
+
 
 ##### Rastrear arquivos
 Adicione este conteúdo ao próximo commit <br>
