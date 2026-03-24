@@ -34,7 +34,6 @@ Comparação da área de preparação com a versão já commitada:<br>
 ```git diff --staged``` - Compara as alterações que estão no seu stage com o seu último commit; <br>
 ```git diff --cached``` - Vê o que você já mandou para o stage até agora;
 
-
 ##### Rastrear arquivos
 Adicione este conteúdo ao próximo commit <br>
 ```git add```<br>
@@ -43,7 +42,15 @@ Adicione este conteúdo ao próximo commit <br>
 ```git rm --cached```<br>
 ```git rm --cached -r .```<br>
 
+##### Commits
 ```git commit -m "Mensagem"```<br>
+```git commit -a``` - Faz o Git mandar todos arquivos rastreados para o stage automaticamente, antes de fazer o commit, permitindo que você pule a parte do ```git add```<br>
+
+##### histórico de commits
+```git log```<br>
+```git log --oneline```<br>
+```git log --1```<br>
+```git log --oneline -1```<br>
 
 [.gitignore](https://github.com/github/gitignore)
 
