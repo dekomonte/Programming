@@ -11,22 +11,20 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 ```git config --list```<br>
 ```git config --global init.defaultBranch main``` <br>
 
-#### Manual
+#### Manuais
 ```git help <verb>```<br>
 ```git <verb> help```<br>
 ```man git-<verb>```<br>
 
-#### Essenciais
-
-##### Obter um repositório Git
+#### Obter um repositório Git
 ```git init``` - Cria um subdiretório .git;<br>
 ```git clone [url]``` - Git recebe uma cópia completa de praticamente todos os dados que o servidor possui;<br>
 
-##### Verificar status de arquivos
+#### Verificar status de arquivos
 ```git status```<br>
 ```git status -s``` ```git status --short```<br>
 
-##### Verificar diferenças entre arquivos
+#### Verificar diferenças entre arquivos
 Diferenças entre arquivo modificado e arquivo commitado:<br>
 ```git diff``` -  Compara o que está no seu diretório de trabalho com o que está no stage; <br>
 
@@ -34,19 +32,26 @@ Comparação da área de preparação com a versão já commitada:<br>
 ```git diff --staged``` - Compara as alterações que estão no seu stage com o seu último commit; <br>
 ```git diff --cached``` - Vê o que você já mandou para o stage até agora;
 
-##### Rastrear arquivos
+#### Rastrear arquivos
 Adicione este conteúdo ao próximo commit <br>
 ```git add```<br>
 ```git add .``` ```git add --all``` ```git add -A```<br>
 
-```git rm --cached```<br>
+#### Remover arquivos
+```git rm```<br>
+```git rm --cached``` - Remove de STAGE, mas mantém o arquivo fisico intacto no diretório de trabalho;<br>
 ```git rm --cached -r .```<br>
 
-##### Commits
+#### "Movendo" arquivos
+Função de conveniência<br>
+```git mv nome_arquivo_original nome_arquivo_novo``` - Renomeia um arquivo;<br>
+
+#### Commits
 ```git commit -m "Mensagem"```<br>
 ```git commit -a``` - Faz o Git mandar todos arquivos rastreados para o stage automaticamente, antes de fazer o commit, permitindo que você pule a parte do ```git add```<br>
 
-##### histórico de commits
+#### Histórico de commits
+O commit mais recente aparece primeiro<br>
 ```git log```<br>
 ```git log --oneline```<br>
 ```git log --1```<br>
