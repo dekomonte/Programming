@@ -53,6 +53,8 @@ Função de conveniência<br>
 #### Histórico de commits
 O commit mais recente aparece primeiro<br>
 ```git log```<br>
+```git log -p```<br>
+```git log --stat```<br>
 ```git log --oneline```<br>
 ```git log --1```<br>
 ```git log --oneline -1```<br>
