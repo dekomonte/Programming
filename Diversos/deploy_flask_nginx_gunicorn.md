@@ -6,16 +6,17 @@ Este guia assume que você tem um servidor Ubuntu limpo e acesso via SSH (Putty 
 
 Passo a passo de criação de um **serviço** de uma aplicação Python (Flask).
 
-OBS: O tutorial do Gemini faz todo o procedimento admitindo que o diretório da aplicação é ```/var/www/my_flask_app/```, eu coloquei as aplicações na pasta de usuário ```/home/ubuntu/aplicacao```, então precisei fazer algumas alterações. 
+OBS: O tutorial do Gemini faz todo o procedimento admitindo que o diretório da aplicação é ```/var/www/my_flask_app/```(padrão do Apache), eu coloquei as aplicações na pasta de usuário exemplo ```/home/ubuntu/aplicacao```. 
 
 Assume-se que o usuário no Ubuntu é ```ubuntu``` e a pasta da aplicação é ```aplicacao```.
 
 ## 1. Preparação do Sistema
 
-Primeiro, atualize os pacotes e instale as dependências necessárias.
+Primeiro, atualize os pacotes e instale as dependências necessárias (verificar antes quais são dependências apenas da aplicação para evitar conflitos).
 
 ```
-sudo apt update && sudo apt upgrade -y
+sudo apt update 
+sudo apt upgrade 
 sudo apt install python3-pip python3-venv nginx git -y
 ```
 
@@ -25,17 +26,22 @@ Vamos criar a estrutura de pastas, clonar o repositório e configurar o ambiente
 
 ```
 # Criar diretório da aplicação e ajustar permissões (no diretório da aplicação)
-
 sudo mkdir aplicacao
 sudo chown -R $USER:$USER
+```
 
+```
 # Clonar o repositório (no diretório da aplicação)
-git clone https://github.com/usuario/exemplo_aplicacao.git 
+git clone https://github.com/usuario/exemplo_aplicacao.git
+```
 
+```
 # Criar e ativar ambiente virtual
 python3 -m venv venv
 source venv/bin/activate
+```
 
+```
 # Instalar dependências
 pip install --upgrade pip
 pip install -r requirements.txt
