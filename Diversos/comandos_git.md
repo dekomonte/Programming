@@ -3,9 +3,6 @@
 https://git-scm.com/book/pt-br/v2 <br>
 https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 
-![O ciclo de vida dos status de seus arquivos.](/Diversos/lifecycle.png)
-Ciclo de vida de um Arquivo Git: importante para entender melhor o processo que ocorrem em função dos comandos.
-
 ### Comandos
 
 #### Configuração de usuário
@@ -88,6 +85,8 @@ Clientes duplicam localmente o repositório completo;
 Quando você clona um repositório pela primeira vez, todos os seus arquivos serão rastreados e não modificados já que o Git acabou de obtê-los e você ainda não editou nada. Assim que você edita alguns arquivos, Git os considera modificados, porque você os editou desde o seu último commit. Você prepara os arquivos editados e então faz commit das suas alterações, e o ciclo se repete.
 
 Untracked files → Arquivos que não tinham no commit anterior;
+
+![O ciclo de vida dos status de seus arquivos.](/Diversos/lifecycle.png)
 
 # EXTRAS
 
