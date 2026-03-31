@@ -3,6 +3,8 @@
 https://git-scm.com/book/pt-br/v2 <br>
 https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 
+![O ciclo de vida dos status de seus arquivos.](/Diversos/lifecycle.png)
+
 ### Comandos
 
 #### Configuração de usuário
