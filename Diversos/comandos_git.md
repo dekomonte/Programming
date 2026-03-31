@@ -50,6 +50,7 @@ Função de conveniência<br>
 #### Commits
 ```git commit -m "Mensagem"```<br>
 ```git commit -a``` - Faz o Git mandar todos arquivos rastreados para o stage automaticamente, antes de fazer o commit, permitindo que você pule a parte do ```git add```<br>
+```git commit --amend -m "Alteração de arquivo"```
 
 #### Histórico de commits
 O commit mais recente aparece primeiro<br>
@@ -82,3 +83,9 @@ Clientes duplicam localmente o repositório completo;
 Quando você clona um repositório pela primeira vez, todos os seus arquivos serão rastreados e não modificados já que o Git acabou de obtê-los e você ainda não editou nada. Assim que você edita alguns arquivos, Git os considera modificados, porque você os editou desde o seu último commit. Você prepara os arquivos editados e então faz commit das suas alterações, e o ciclo se repete.
 
 Untracked files → Arquivos que não tinham no commit anterior;
+
+# EXTRAS
+
+### "Padrão de Commit"
+
+### "Git Flow"
