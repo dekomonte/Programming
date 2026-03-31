@@ -48,8 +48,10 @@ Função de conveniência<br>
 ```git mv nome_arquivo_original nome_arquivo_novo``` - Renomeia um arquivo;<br>
 
 #### Commits
-```git commit -m "Mensagem"```<br>
-```git commit -a``` - Faz o Git mandar todos arquivos rastreados para o stage automaticamente, antes de fazer o commit, permitindo que você pule a parte do ```git add```<br>
+O commit "tira uma foto" do que foi deixado na área de stage (snapshot do projeto)<br>
+```git commit``` - Forma mais simples de fazer um commit<br>
+```git commit -m "Mensagem"``` Adiciona uma mensagem ao commit<br>
+```git commit -a``` - Faz o Git mandar todos arquivos rastreados para o stage automaticamente, antes de fazer o commit, permitindo que você pule a parte do ```git add```; a opção *-a* inclui todos os arquivos alterados<br>
 ```git commit --amend -m "Alteração de arquivo"```
 
 #### Histórico de commits
