@@ -3,7 +3,7 @@
 https://git-scm.com/book/pt-br/v2 <br>
 https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 
-### Comandos
+### Comandos Básicos
 
 #### Configuração de usuário
 ```git config --global user.name "Nome de usuário"``` <br>
@@ -17,7 +17,7 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 ```man git-<verb>```<br>
 
 #### Obter um repositório Git
-Usar um comando ou outro, não precisa dos dois.<br>
+*Usar um comando ou outro, não precisa dos dois.*<br>
 ```git init``` - Cria um subdiretório .git (usado quando for para começar um projeto do zero na máquina pessoal);<br>
 ```git clone [url]``` - Git recebe uma cópia completa de praticamente todos os dados que o servidor possui;<br>
 
@@ -34,7 +34,7 @@ Comparação da área de preparação com a versão já commitada:<br>
 ```git diff --cached``` - Vê o que você já mandou para o stage até agora;
 
 #### Rastrear arquivos
-Adicione este conteúdo ao próximo commit <br>
+"Adicione este conteúdo ao próximo commit"<br>
 ```git add```<br>
 ```git add .``` ```git add --all``` ```git add -A```<br>
 
@@ -62,6 +62,7 @@ O commit mais recente aparece primeiro<br>
 ```git log --oneline```<br>
 ```git log --1```<br>
 ```git log --oneline -1```<br>
+```git log --pretty=format```<br> 
 
 [.gitignore](https://github.com/github/gitignore)
 
