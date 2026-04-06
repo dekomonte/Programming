@@ -66,6 +66,17 @@ O commit mais recente aparece primeiro<br>
 
 [.gitignore](https://github.com/github/gitignore)
 
+### Trabalhando de Forma Remota
+
+#### Exibindo repositórios remotos
+
+```git remote```- Lista os nomes de cada repositório remono manejado<br> 
+```git remote -v```<br>
+
+#### Adicionando repositórios remotos
+
+```git remote add <shortname> <url>```
+
 ### Conceitos
 
 #### Sistema Distribuído de Controle de Versão
