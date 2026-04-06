@@ -94,3 +94,4 @@ Untracked files → Arquivos que não tinham no commit anterior;
 ### "Padrão de Commit"
 
 ### "Git Flow"
+![O ciclo de vida dos status de seus arquivos.](https://cdn-wcsm.alura.com.br/2025/04/imagem3-50.png)
