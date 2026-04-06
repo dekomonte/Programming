@@ -7,6 +7,7 @@ Resumo de curso de banco de dados da Udemy
 * Tutorial de Markdown
 * Guia de Deploy: Flask + Gunicorn + Nginx no Ubuntu Server
 * Lista de comandos Linux
+* Guia - Git
 
 ### PHP_basico
 Sintaxe básica de PHP: <br/>
