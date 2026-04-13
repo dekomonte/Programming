@@ -27,7 +27,7 @@ Vamos criar a estrutura de pastas, clonar o repositório e configurar o ambiente
 ```
 # Criar diretório da aplicação e ajustar permissões (no diretório da aplicação)
 sudo mkdir aplicacao
-sudo chown -R $USER:$USER
+sudo chown -R $USER:$USER .
 ```
 
 ```
