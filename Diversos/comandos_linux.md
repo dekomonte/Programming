@@ -3,16 +3,16 @@ Google Gemini <br>
 https://www.udemy.com/course/terminal-linux-com-ubuntu
 
 ### 📂 Navegação e Essenciais
-* `pwd` - Informa o caminho do diretório atual.
-* `cd` - Navegação entre diretórios.
-* `cd /` - Vai para o diretório raiz do sistema.
-* `cd -` - Volta para o diretório onde você estava anteriormente.
-* `cd ~` - Volta para o diretório "home" do seu usuário.
-* `ls` - Lista arquivos e pastas do diretório atual.
-    * *Ex:* `ls -a` (Lista inclusive arquivos ocultos)
-* `ls -l` - Lista arquivos com detalhes (permissões, dono, tamanho e data).
-* `clear` - Limpa a tela do terminal.
-* `Tab` - Autocompleta o nome de comandos ou arquivos enquanto você digita.
+`pwd` - Informa o caminho do diretório atual.
+`cd` - Navegação entre diretórios.
+`cd /` - Vai para o diretório raiz do sistema.
+`cd -` - Volta para o diretório onde você estava anteriormente.
+`cd ~` - Volta para o diretório "home" do seu usuário.
+`ls` - Lista arquivos e pastas do diretório atual.
+    *Ex:* `ls -a` (Lista inclusive arquivos ocultos)
+`ls -l` - Lista arquivos com detalhes (permissões, dono, tamanho e data).
+`clear` - Limpa a tela do terminal.
+`Tab` - Autocompleta o nome de comandos ou arquivos enquanto você digita.
 
 ### 🛡️ Administração e Usuários
 * `sudo` - Executa comandos com privilégios de superusuário (root).
