@@ -8,7 +8,7 @@ https://www.udemy.com/course/terminal-linux-com-ubuntu
 `cd /` - Vai para o diretório raiz do sistema.<br>
 `cd -` - Volta para o diretório onde você estava anteriormente.<br>
 `cd ~` - Volta para o diretório "home" do seu usuário.<br>
-`ls` - Lista arquivos e pastas do diretório atual.*Ex:* `ls -a` (Lista inclusive arquivos ocultos)<br>
+`ls` - Lista arquivos e pastas do diretório atual. *Ex:* `ls -a` (Lista inclusive arquivos ocultos)<br>
 `ls -l` - Lista arquivos com detalhes (permissões, dono, tamanho e data).<br>
 `clear` - Limpa a tela do terminal.<br>
 `Tab` - Autocompleta o nome de comandos ou arquivos enquanto você digita.<br>
