@@ -104,5 +104,19 @@ Untracked files → Arquivos que não tinham no commit anterior;
 
 ### "Padrão de Commit"
 
+* **feat** - adição de novo recurso <br>
+* **fix** - solução de um problema (bug) <br>
+* **docs** - mudanças na documentação <br>
+* **test** - alteração em testes <br>
+* **build** - modificações em arquivos de build e dependência <br>
+* **perf** - alterações relacionadas a performance <br>
+* **style** - formatações de código <br>
+* **refactor** - refatorações que não alterem sua funcionalidade <br>
+* **chore** - atualizações de tarefas de build, configurações de ADMIN, pacotes <br>
+* **ci** - CI, integração contínua <br>
+* **raw** - mudanças relacionadas a arquivos de configurações, dados, features, parâmetros <br>
+* **cleanup** - remover código comentado, trechos desnecessários <br>
+* **remove** - exclusão (arquivos, diretórios, funcionalidades) 
+
 ### "Git Flow"
 ![O ciclo de vida dos status de seus arquivos.](https://cdn-wcsm.alura.com.br/2025/04/imagem3-50.png)
