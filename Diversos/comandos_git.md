@@ -66,6 +66,18 @@ O commit mais recente aparece primeiro<br>
 
 [.gitignore](https://github.com/github/gitignore)
 
+#### Usando commits anteriores
+Útil quando a gente quer ver uma versão antiga do código<br>
+```git log --oneline``` - Lista de commits<br>
+```git checkout [código da branch]``` - Listado com log<br>
+
+#### Desfazendo mudanças
+```git checkout arquivo``` - Vai desfazer tudo do último commit conhecido; todas as alterações são perdidas<br>
+
+```git clean -f``` - Remove os arquivos não rastreados<br>
+
+```git rm --cached [arquivo]``` - Remove do stage
+
 ### Trabalhando de Forma Remota
 
 #### Exibindo repositórios remotos
