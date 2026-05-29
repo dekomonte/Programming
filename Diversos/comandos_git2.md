@@ -20,4 +20,4 @@ Hipótese: o arquivo já foi adicionado, *"commitado"*, mas agora não quero mai
 
 #### Clonar o repositório remoto
 
-```git clone [url]```<br>
+```git clone [url]``` - Clona o repositório na máquina local; mantém o histórico dos arquivos<br>
