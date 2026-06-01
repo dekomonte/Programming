@@ -85,7 +85,7 @@ Esse usuário tem uma [página](https://dekomonte.github.io/).
 ***
 ## Imagens
 É possível colocar imagens no texto. <br/>
-![Exemplo](/Diversos/img_ex.jpg)
+![Exemplo](/Markdown/img_ex.jpg)
 
 ***
 ## Tabelas
