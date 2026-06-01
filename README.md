@@ -1,14 +1,20 @@
 # Programming
+Referências gerais relacionadas à programação. 
 
 ### Banco_Dados
-Resumo de curso de banco de dados da Udemy
+* Resumo de curso de banco de dados da Udemy - Operações mais importantes (SQL Server)
 
-### Diversos
-* Tutorial de Markdown
+### Git
+* Comandos Git - Parte 1
+* Comandos Git - Parte 2
+  
+### Linux
+* Lista de comandos principais Linux
 * Guia de Deploy: Flask + Gunicorn + Nginx no Ubuntu Server
-* Lista de comandos Linux
-* Guia - Git
 
+### Markdown
+* Tutorial de Markdown
+  
 ### PHP_basico
 Sintaxe básica de PHP: <br/>
 * Inclusão de Arquivo, Variáveis, Operadores <br/>
