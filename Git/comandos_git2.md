@@ -8,11 +8,19 @@
 ```git push``` - Envio dos commits locais para o servidor remoto<br>
 ```git pull``` - Traz os dados do servidor local<br>
 
+## Branches
+
+Ramificação significa que você diverge da linha principal de desenvolvimento e continua a trabalhar sem alterar essa linha principal.
+
+
+```git switch```<br>
+```git checkout```<br>
+
 ## Outros
 
 #### Parar de rastrear um arquivo
 
-Hipótese: o arquivo já foi adicionado, *"commitado"*, mas agora não quero mais que ele seja rastreado pelo Git
+Cenário: o arquivo já foi adicionado, *"commitado"*, mas agora não quero mais que ele seja rastreado pelo Git
 
 ```git update-index --skip-worktree index.html``` - A partir de agora o Git não fica mais monitoriando (o passado fica registrado, o histórico permanece)
 
