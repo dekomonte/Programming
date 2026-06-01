@@ -110,7 +110,7 @@ Quando você clona um repositório pela primeira vez, todos os seus arquivos ser
 
 Untracked files → Arquivos que não tinham no commit anterior;
 
-![O ciclo de vida dos status de seus arquivos.](/Diversos/lifecycle.png)
+![O ciclo de vida dos status de seus arquivos.](/Git/lifecycle.png)
 
 # EXTRAS
 
