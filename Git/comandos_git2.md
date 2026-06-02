@@ -1,5 +1,8 @@
 # Git Comandos - Parte 2
 
+https://git-scm.com/book/pt-br/v2 <br>
+https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
+
 ## GitHub
 ```git remote -v``` - Listagem do servidor remoto <br>
 
