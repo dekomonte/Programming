@@ -12,9 +12,15 @@
 
 Ramificação significa que você diverge da linha principal de desenvolvimento e continua a trabalhar sem alterar essa linha principal.
 
-
 ```git switch```<br>
 ```git checkout```<br>
+
+```git branch -d [nome da branch]``` - Deletar branch local(e o histórico)<br>
+```git push --delete origin [nome da branch]``` - Deletar branch no servidor(e o histórico)<br>
+
+```git branch -m [nome novo da branch]``` - Renomear branch localmente; muda o nome da branch atual<br>
+```git branch -m [nome antigo][nome novo]``` - Renomear branch localmente; muda o nome estando em outra branch<br>
+Renomear branch no servidor: **NÃO** dá para fazer<br>
 
 ## Outros
 
