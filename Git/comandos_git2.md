@@ -15,8 +15,15 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 
 Ramificação significa que você diverge da linha principal de desenvolvimento e continua a trabalhar sem alterar essa linha principal.
 
+HEAD é um ponteiro especial que aponta para a branch local que você está. 
+
 ```git switch```<br>
 ```git checkout```<br>
+
+```git branch testing``` - Criar nova branch<br>
+```git checkout testing``` - Mudar de branch<br>
+```git checkout -b testing``` - Criar e Mudar para a branch criada<br>
+```git log --oneline --decorate --graph --all``` - Histórico de commits com ponteiros de branch e histórico de divergências
 
 ```git branch -d [nome da branch]``` - Deletar branch local(e o histórico)<br>
 ```git push --delete origin [nome da branch]``` - Deletar branch no servidor(e o histórico)<br>
@@ -38,3 +45,22 @@ Cenário: o arquivo já foi adicionado, *"commitado"*, mas agora não quero mais
 #### Clonar o repositório remoto
 
 ```git clone [url]``` - Clona o repositório na máquina local; mantém o histórico dos arquivos<br>
+
+## Anotações - Geral
+
+#### Exercício 
+
+O que essa sequência de comandos faz? 
+
+```
+git checkout -b develop
+git checkout main
+git branch -m develop dev
+```
+Cria uma nova branch chamada develop e muda pra ela; muda para a branch main; renomeia a branch develop para dev
+
+#### Exercício 
+
+Qual a diferença entre ```git checkout``` e ```git switch```?
+
+O git switch serve exclusivamente para mudar de branch. O git checkout serve para mudar de branch e para restaurar ou descartar modificações em arquivos. 
