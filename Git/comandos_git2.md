@@ -17,12 +17,17 @@ Ramificação significa que você diverge da linha principal de desenvolvimento 
 
 HEAD é um ponteiro especial que aponta para a branch local que você está. 
 
-```git switch```<br>
-```git checkout```<br>
+
+
+#### Criar e mudar de branch
 
 ```git branch testing``` - Criar nova branch<br>
 ```git checkout testing``` - Mudar de branch<br>
 ```git checkout -b testing``` - Criar e Mudar para a branch criada<br>
+
+```git switch```<br>
+```git checkout```<br>
+
 ```git log --oneline --decorate --graph --all``` - Histórico de commits com ponteiros de branch e histórico de divergências
 
 ```git branch -d [nome da branch]``` - Deletar branch local(e o histórico)<br>
