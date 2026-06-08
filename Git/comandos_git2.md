@@ -56,7 +56,7 @@ Cenário: o arquivo já foi adicionado, *"commitado"*, mas agora não quero mais
 
 ## Exercícios
 
-#### Exercício 
+#### Exercício 1
 
 O que essa sequência de comandos faz? 
 
@@ -67,7 +67,7 @@ git branch -m develop dev
 ```
 Cria uma nova branch chamada develop e muda pra ela; muda para a branch main; renomeia a branch develop para dev
 
-#### Exercício 
+#### Exercício 2
 
 Qual a diferença entre ```git checkout``` e ```git switch```?
 
