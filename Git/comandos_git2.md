@@ -54,7 +54,7 @@ Cenário: o arquivo já foi adicionado, *"commitado"*, mas agora não quero mais
 
 ```git clone [url]``` - Clona o repositório na máquina local; mantém o histórico dos arquivos<br>
 
-## Anotações - Geral
+## Exercícios
 
 #### Exercício 
 
