@@ -31,14 +31,36 @@ HEAD é um ponteiro especial que aponta para a branch local que você está.
 
 ```git branch```
 
+#### Deletar branch
+
 ```git branch -d [nome da branch]``` - Deletar branch local(e o histórico)<br>
+```git branch -D [nome da branch]``` - Força Deletar branch local(e o histórico)<br>
 ```git push --delete origin [nome da branch]``` - Deletar branch no servidor(e o histórico)<br>
+
+#### Renomear branch
 
 ```git branch -m [nome novo da branch]``` - Renomear branch localmente; muda o nome da branch atual<br>
 ```git branch -m [nome antigo][nome novo]``` - Renomear branch localmente; muda o nome estando em outra branch<br>
 Renomear branch no servidor: **NÃO** dá para fazer<br>
 
+#### Mesclar
+
+```
+git switch main
+git merge develop
+```
+
+```git branch --no-merged``` - Listar as branchs não *mergeadas*<br>
+```git branch --merged``` - Listar as branchs *mergeadas*<br>
+
+
+
+#### git log
+
+```git log develop --oneline``` - É possível colocar o nome da branch 
+
 ```git log --oneline --decorate --graph --all``` - Histórico de commits com ponteiros de branch e histórico de divergências
+
 
 ## Outros
 
@@ -71,4 +93,15 @@ Cria uma nova branch chamada develop e muda pra ela; muda para a branch main; re
 
 Qual a diferença entre ```git checkout``` e ```git switch```?
 
-O git switch serve exclusivamente para mudar de branch. O git checkout serve para mudar de branch e para restaurar ou descartar modificações em arquivos. 
+O git switch serve exclusivamente para mudar de branch. O git checkout serve para mudar de branch e para restaurar ou descartar modificações em arquivos.
+
+#### Exercício 3
+
+Cenário: fiz alterações na branch develop (já commitadas), quero que essas alterações sejam incorporadas à main/master, quais devem ser os comandos utilizados? 
+
+```
+git switch main
+git merge develop
+```
+
+OBS: Eu sempre trago as mudanças para a branch que eu estou, nunca envio para outra branch. No merge, eu informo de qual branch eu quero trazer as informações
