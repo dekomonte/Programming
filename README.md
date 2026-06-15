@@ -2,11 +2,12 @@
 Referências gerais relacionadas à programação. 
 
 ### Banco_Dados
-* Resumo de curso de banco de dados da Udemy - Operações mais importantes (SQL Server)
+<!--* Resumo de curso de banco de dados da Udemy - Operações mais importantes (SQL Server)-->
 
 ### Git
 * Comandos Git - Parte 1
 * Comandos Git - Parte 2
+* Comandos Git - Parte 3
   
 ### Linux
 * Lista de comandos principais Linux
