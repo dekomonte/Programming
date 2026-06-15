@@ -52,7 +52,25 @@ git merge develop
 
 ```git branch --no-merged``` - Listar as branchs não *mergeadas*<br>
 ```git branch --merged``` - Listar as branchs *mergeadas*<br>
+```git merge --abort``` - Cancela a operação<br>
 
+##### Conflitos
+
+O Git adiciona símbolos padrão de resolução de conflitos nos arquivos que têm conflitos, para que você possa abrí-los manualmente e solucionar os conflitos.
+
+```
+Exemplo - Simbologia
+
+<<<<<<< HEAD:index.html
+<div id="footer">contact : email.support@github.com</div>
+=======
+<div id="footer">
+ please contact us at support@github.com
+</div>
+>>>>>>> iss53:index.html
+```
+
+Escolher qual versão fica: você pode manter o texto da HEAD, manter o texto da iss53, ou reescrever a linha para combinar o melhor dos dois mundos. Apagar todos os marcadores (```<<<<<<< ``` ```=======``` ```>>>>>>>```). O arquivo final não pode conter essas linhas. Após resolver conflitos salvar e fazer o commit. 
 
 
 #### git log
