@@ -1,14 +1,14 @@
 # Programming
 Referências gerais relacionadas à programação. 
 
-### Banco_Dados
-<!--* Resumo de curso de banco de dados da Udemy - Operações mais importantes (SQL Server)-->
+### Banco de Dados
+
 
 ### Git
 * Comandos Git - Parte 1
 * Comandos Git - Parte 2
 * Comandos Git - Parte 3
-* Manual de  Problemas Comuns
+* Manual de Casos Comuns - Git
   
 ### Linux
 * Lista de comandos principais Linux
@@ -17,7 +17,7 @@ Referências gerais relacionadas à programação.
 ### Markdown
 * Tutorial de Markdown
   
-### PHP_basico
+### PHP Básico
 Sintaxe básica de PHP: <br/>
 * Inclusão de Arquivo, Variáveis, Operadores <br/>
 * Estruturas de Repetição, Estruturas de Seleção <br/>
