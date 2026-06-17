@@ -107,6 +107,8 @@ O desenvolvedor esqueceu de colocar o .env no .gitignore, commitou o arquivo e, 
 
 Aqui está o comando cirúrgico para resolver isso: você remove o arquivo do controle de versão (e consequentemente do GitHub no próximo push), mas mantém ele intacto na sua pasta local.
 
+Importante: Inserir o arquivo no .gitignore para não ser enviado de novo.
+
 #### Proposta de Solução
 
 ```
