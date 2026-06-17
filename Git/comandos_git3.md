@@ -43,6 +43,6 @@ git tag -a v1.0.0 -m "Release oficial da versão 1.0.0 com correções de segura
 
 #### Exercício 2
 
-Qual a função do comando git merge --abort?
+Qual a função do comando ```git merge --abort```?
 
 Ele é usado exclusivamente quando você tenta juntar duas branches (fazer um merge), o Git encontra conflitos que você não sabe ou não quer resolver naquele momento, e sua única intenção é desistir da operação.
