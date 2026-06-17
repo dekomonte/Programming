@@ -8,6 +8,7 @@ Referências gerais relacionadas à programação.
 * Comandos Git - Parte 1
 * Comandos Git - Parte 2
 * Comandos Git - Parte 3
+* Manual de  Problemas Comuns
   
 ### Linux
 * Lista de comandos principais Linux
