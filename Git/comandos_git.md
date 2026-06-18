@@ -3,6 +3,18 @@
 https://git-scm.com/book/pt-br/v2 <br>
 https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 
+## 🔍 Índice de Navegação Rápida
+1. [Comandos Básicos](#comandos-básicos)
+2. [Trabalhando de Forma Remota / GitHub](#trabalhando-de-forma-remota)
+3. [Conceitos Fundamentais](#conceitos)
+4. [Branches (Ramificações)](#branches)
+5. [Tags (Versões)](#tag)
+6. [Outros Comandos Úteis](#outros)
+7. [Exercícios Resolvidos](#exercícios)
+8. [Extras (Conventional Commits & Git Flow)](#extras)
+
+---
+
 ### Comandos Básicos
 
 #### Configuração de usuário
