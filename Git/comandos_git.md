@@ -23,7 +23,8 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 
 #### Verificar status de arquivos
 ```git status```<br>
-```git status -s``` ```git status --short```<br>
+```git status -s```<br>
+```git status --short```<br>
 
 #### Verificar diferenças entre arquivos
 Diferenças entre arquivo modificado e arquivo commitado:<br>
@@ -51,7 +52,7 @@ Função de conveniência<br>
 O commit "tira uma foto" do que foi deixado na área de stage (snapshot do projeto)<br>
 ```git commit``` - Forma mais simples de fazer um commit<br>
 ```git commit -m "Mensagem"``` Adiciona uma mensagem ao commit<br>
-```git commit -a``` - Faz o Git mandar todos arquivos rastreados para o stage automaticamente, antes de fazer o commit, permitindo que você pule a parte do ```git add```; a opção *-a* inclui todos os arquivos alterados<br>
+```git commit -a``` - Faz o Git mandar todos os arquivos rastreados modificados para o stage automaticamente antes de comitar, pulando a parte do `git add` (Atenção: não adiciona arquivos novos/untracked)<br>
 ```git commit --amend -m "Alteração de arquivo"```
 
 #### Histórico de commits
@@ -72,7 +73,7 @@ O commit mais recente aparece primeiro<br>
 ```git checkout [código da branch]``` - Listado com log<br>
 
 #### Desfazendo mudanças
-```git checkout arquivo``` - Vai desfazer tudo do último commit conhecido; todas as alterações são perdidas<br>
+```git checkout arquivo``` - Vai desfazer tudo desde o último commit conhecido; todas as alterações são perdidas<br>
 
 ```git clean -f``` - Remove os arquivos não rastreados<br>
 
