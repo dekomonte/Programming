@@ -9,7 +9,7 @@ https://www.udemy.com/course/git-completo-do-basico-ao-avancado/
 ```origin``` - Apontamento de repositório (URL) <br>
 
 ```git push``` - Envio dos commits locais para o servidor remoto<br>
-```git pull``` - Traz os dados do servidor local<br>
+```git pull``` - Traz os dados do servidor local e faz o merge automático no código local<br>
 
 ## Branches
 
