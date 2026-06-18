@@ -22,6 +22,10 @@ Funcionalidade principal: quando o seu **sistema chega a um ponto estável e pro
 ```git tag -d V0``` - Remover localmente a tag<br>
 ```git push --delete origin V0``` - Remover no servidor
 
+### Outros
+
+```git stash list```
+
 ## Exercícios
 
 #### Exercício 1
