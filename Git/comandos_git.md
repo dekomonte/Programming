@@ -113,27 +113,6 @@ Untracked files → Arquivos que não tinham no commit anterior;
 
 ![O ciclo de vida dos status de seus arquivos.](/Git/lifecycle.png)
 
-# EXTRAS
-
-### "Padrão de Commit"
-
-* **feat** - adição de novo recurso <br>
-* **fix** - solução de um problema (bug) <br>
-* **docs** - mudanças na documentação <br>
-* **test** - alteração em testes <br>
-* **build** - modificações em arquivos de build e dependência <br>
-* **perf** - alterações relacionadas a performance <br>
-* **style** - formatações de código <br>
-* **refactor** - refatorações que não alterem sua funcionalidade <br>
-* **chore** - atualizações de tarefas de build, configurações de ADMIN, pacotes <br>
-* **ci** - CI, integração contínua <br>
-* **raw** - mudanças relacionadas a arquivos de configurações, dados, features, parâmetros <br>
-* **cleanup** - remover código comentado, trechos desnecessários <br>
-* **remove** - exclusão (arquivos, diretórios, funcionalidades) 
-
-### "Git Flow"
-![O ciclo de vida dos status de seus arquivos.](https://cdn-wcsm.alura.com.br/2025/04/imagem3-50.png)
-
 ## GitHub
 ```git remote -v``` - Listagem do servidor remoto <br>
 
@@ -256,7 +235,6 @@ Descarte:<br>
 ```git config --global --unset alias.l```<br>
 ```git config --global --unset alias.line```<br>
 
-
 ## Exercícios
 
 #### Exercício 1
@@ -310,3 +288,24 @@ git tag -a v1.0.0 -m "Release oficial da versão 1.0.0 com correções de segura
 Qual a função do comando ```git merge --abort```?
 
 Ele é usado exclusivamente quando você tenta juntar duas branches (fazer um merge), o Git encontra conflitos que você não sabe ou não quer resolver naquele momento, e sua única intenção é desistir da operação.
+
+# EXTRAS
+
+### "Padrão de Commit"
+
+* **feat** - adição de novo recurso <br>
+* **fix** - solução de um problema (bug) <br>
+* **docs** - mudanças na documentação <br>
+* **test** - alteração em testes <br>
+* **build** - modificações em arquivos de build e dependência <br>
+* **perf** - alterações relacionadas a performance <br>
+* **style** - formatações de código <br>
+* **refactor** - refatorações que não alterem sua funcionalidade <br>
+* **chore** - atualizações de tarefas de build, configurações de ADMIN, pacotes <br>
+* **ci** - CI, integração contínua <br>
+* **raw** - mudanças relacionadas a arquivos de configurações, dados, features, parâmetros <br>
+* **cleanup** - remover código comentado, trechos desnecessários <br>
+* **remove** - exclusão (arquivos, diretórios, funcionalidades) 
+
+### "Git Flow"
+![O ciclo de vida dos status de seus arquivos.](https://cdn-wcsm.alura.com.br/2025/04/imagem3-50.png)
