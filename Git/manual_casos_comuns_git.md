@@ -9,7 +9,7 @@ Como forma de documentação, esse arquivo lista problemas comuns envolvendo con
 * [Fiz besteira no último commit local, mas ainda não dei push](#1-fiz-besteira-no-último-commit-local-e-ainda-não-dei-push)
 * [Entrei em um mar de conflitos de merge após um pull](#2-entrei-em-um-mar-de-conflitos-de-merge-após-um-pull)
 * [Commitaram uma senha/chave de API pública por engano e foi para o GitHub](#4-commitaram-uma-senhachave-de-api-pública-por-engano-e-foi-para-o-github)
-* [Arquivos sensíveis por engano no GitHub](#🛠️-solução-remover-do-github-mas-manter-localmente)
+* [Arquivos sensíveis por engano no GitHub](#arquivos-sensiveis-por-engano-no-github)
 
 ## N Branches
 
