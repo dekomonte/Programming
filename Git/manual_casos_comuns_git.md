@@ -6,10 +6,10 @@ Como forma de documentação, esse arquivo lista problemas comuns envolvendo con
 
 # Sumário
 * [N Branches](#n-branches)
-* [Fiz besteira no último commit local, mas ainda não dei push](#1-fiz-besteira-no-último-commit-local-e-ainda-não-dei-push)
-* [Entrei em um mar de conflitos de merge após um pull](#2-entrei-em-um-mar-de-conflitos-de-merge-após-um-pull)
-* [Commitaram uma senha/chave de API pública por engano e foi para o GitHub](#4-commitaram-uma-senhachave-de-api-pública-por-engano-e-foi-para-o-github)
-* [Arquivos sensíveis por engano no GitHub](#arquivos-sensiveis-por-engano-no-github)
+* [Fiz besteira no último commit local, mas ainda não dei push](#fiz-besteira-no-último-commit-local-mas-ainda-não-dei-push)
+* [Entrei em um mar de conflitos de merge após um pull](#entrei-em-um-mar-de-conflitos-de-merge-após-um-pull)
+* [Commitaram uma senha/chave de API pública por engano e foi para o GitHub](#commitaram-uma-senhachave-de-api-pública-por-engano-e-foi-para-o-github)
+* [Arquivos sensíveis por engano no GitHub](#arquivos-sensíveis-por-engano-no-github)
 
 ## N Branches
 
@@ -117,4 +117,5 @@ git rm --cached .env
 
 # (Opcional) Se foi uma pasta inteira de configurações ou chaves:
 git rm -r --cached nome-da-pasta/
+git rm -r --cached "pasta exemplo/"
 ```
