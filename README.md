@@ -5,9 +5,7 @@ Referências gerais relacionadas à programação.
 
 
 ### Git
-* Comandos Git - Parte 1
-* Comandos Git - Parte 2
-* Comandos Git - Parte 3
+* Comandos - Git
 * Manual de Casos Comuns - Git
   
 ### Linux
