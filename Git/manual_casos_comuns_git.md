@@ -117,5 +117,5 @@ git rm --cached .env
 
 # (Opcional) Se foi uma pasta inteira de configurações ou chaves:
 git rm -r --cached nome-da-pasta/
-git rm -r --cached "pasta exemplo/"
+git rm -r --cached "pasta exemplo/" #nome da pasta com espaço
 ```
